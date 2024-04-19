@@ -1,0 +1,14 @@
+{
+    "Import ERC2981 Contract": {
+        "scope": "solidity",
+        "prefix": "importERC2981",
+        "body": "import {ERC2981} from \"@openzeppelin/contracts/token/common/ERC2981.sol\";",
+        "description": "Import ERC2981 contract from @openzeppelin"
+    },
+    "Import ERC2981 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC2981I",
+        "body": "import {IERC2981} from \"@openzeppelin/contracts/interfaces/IERC2981.sol\";",
+        "description": "Import ERC2981 Interface from @openzeppelin"
+    },
+}

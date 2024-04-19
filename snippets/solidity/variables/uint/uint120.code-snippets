@@ -1,0 +1,74 @@
+{
+    "Create uint120 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint120Private",
+        "body": [
+            "uint120 private s_$1;",
+        ],
+        "description": "Create a uint120 private variable"
+    },
+    "Create uint120 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint120PrivateConstant",
+        "body": [
+            "uint120 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint120 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint120Public",
+        "body": [
+            "uint120 public s_$1;",
+        ],
+        "description": "Create a uint120 public variable"
+    },
+    "Create uint120 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint120PublicConstant",
+        "body": [
+            "uint120 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint120 public constant variable"
+    },
+    "Create uint120 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint120Internal",
+        "body": [
+            "uint120 internal s_$1;",
+        ],
+        "description": "Create a uint120 internal variable"
+    },
+    "Create uint120 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint120InternalConstant",
+        "body": [
+            "uint120 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint120 internal constant variable"
+    },
+    "Create uint120 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint120PrivateImmutable",
+        "body": [
+            "uint120 private immutable i_$1;",
+        ],
+        "description": "Create a uint120 private immutable variable"
+    },
+    "Create uint120 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint120PublicImmutable",
+        "body": [
+            "uint120 public immutable i_$1;",
+        ],
+        "description": "Create a uint120 immutable public constant variable"
+    },
+    "Create uint120 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint120InternalImmutable",
+        "body": [
+            "uint120 internal immutable i_$1;",
+        ],
+        "description": "Create a uint120 immutable internal variable"
+    },
+}

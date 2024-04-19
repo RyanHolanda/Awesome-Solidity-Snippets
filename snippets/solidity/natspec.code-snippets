@@ -1,0 +1,50 @@
+{
+    "Create natspect notice": {
+        "scope": "solidity",
+        "prefix": "@notice",
+        "body": "/// @notice ${1:description}",
+        "description": "Create natspec notice"
+    },
+    "Create natspect param": {
+        "scope": "solidity",
+        "prefix": "@param",
+        "body": "/// @param ${1:description}",
+        "description": "Create natspec param"
+    },
+    "Create natspect inherit doc": {
+        "scope": "solidity",
+        "prefix": "@inheritDoc",
+        "body": "/// @inheritdoc ${1:description}",
+        "description": "Create natspec inherit doc"
+    },
+    "Create natspect return": {
+        "scope": "solidity",
+        "prefix": "@return",
+        "body": "/// @return ${1:return} ${2:description}",
+        "description": "Create natspec return"
+    },
+    "Create natspect dev": {
+        "scope": "solidity",
+        "prefix": "@dev",
+        "body": "/// @dev ${1:description}",
+        "description": "Create natspec dev"
+    },
+    "Create natspect author": {
+        "scope": "solidity",
+        "prefix": "@author",
+        "body": "/// @author ${1:author}",
+        "description": "Create natspec author"
+    },
+    "Create natspect title": {
+        "scope": "solidity",
+        "prefix": "@title",
+        "body": "/// @title ${1:title}",
+        "description": "Create natspec title"
+    },
+    "Create natspect custom": {
+        "scope": "solidity",
+        "prefix": "@custom",
+        "body": "/// @custom:${1:custom} ${2:title}",
+        "description": "Create natspec custom"
+    }
+}

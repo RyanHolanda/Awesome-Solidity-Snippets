@@ -1,0 +1,26 @@
+{
+    "Import VRF Coordinator V2 Mock": {
+        "scope": "solidity",
+        "prefix": "importMockVRFCoordinatorV2",
+        "body": "import {VRFCoordinatorV2Mock} from \"@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2Mock.sol\";",
+        "description": "Import VRF Coordinator V2 Mock from @chainlink"
+    },
+    "Import V3 Aggregator Mock": {
+        "scope": "solidity",
+        "prefix": "importMockV3Aggregator",
+        "body": "import {MockV3Aggregator} from \"@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol\";",
+        "description": "Import V3 Aggregator Mock from @chainlink"
+    },
+    "Import Mock Link Token": {
+        "scope": "solidity",
+        "prefix": "importMockLink",
+        "body": "import {MockLinkToken} from \"@chainlink/contracts/src/v0.8/mocks/MockLinkToken.sol\";",
+        "description": "Import Mock Link Token from @chainlink"
+    },
+    "Import Mock ERC20": {
+        "scope": "solidity",
+        "prefix": "importMockERC20",
+        "body": "import {WERC20Mock} from \"@chainlink/contracts/src/v0.8/shared/mocks/WERC20Mock.sol\";",
+        "description": "Import Mock ERC20 from @chainlink"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "Import foundry Test contract": {
+        "scope": "solidity",
+        "prefix": "importFoundryTest",
+        "body": "import {Test} from \"forge-std/Test.sol\";",
+        "description": "Import Foundry Test contract from Forge"
+    },
+    "Import foundry Invariant contract": {
+        "scope": "solidity",
+        "prefix": "importFoundryInvariant",
+        "body": "import {StdInvariant} from \"forge-std/StdInvariant.sol\";",
+        "description": "Import Foundry Invariant contract from Forge"
+    },
+    "Create foundry Test contract": {
+        "scope": "solidity",
+        "prefix": "foundryTest",
+        "body": [
+            "import {Test} from \"forge-std/Test.sol\";",
+            "",
+            "contract $1Test is Test {",
+            "   function setUp() external {",
+            "",
+            "   }",
+            "",
+            "   function test_() external {",
+            "",
+            "   }",
+            "}",
+        ],
+        "description": "Create Foundry Test contract"
+    },
+    "Create foundry Invariant Test contract": {
+        "scope": "solidity",
+        "prefix": "foundryInvariantTest",
+        "body": [
+            "import {StdInvariant} from \"forge-std/StdInvariant.sol\";",
+            "import {Test} from \"forge-std/Test.sol\";",
+            "",
+            "contract $1Test is StdInvariant, Test {",
+            "   function setUp() external {",
+            "       targetContract($2);",
+            "   }",
+            "",
+            "   function invariant_() external {",
+            "",
+            "   }",
+            "}",
+        ],
+        "description": "Create Foundry Invariant Test contract"
+    },
+    "Create foundry Invariant Test Function": {
+        "scope": "solidity",
+        "prefix": "itest",
+        "body": [
+            "function invariant_$1() external {",
+            "",
+            "}",
+        ],
+        "description": "Create Foundry Invariant Test Function"
+    },
+    "Create foundry Test Function": {
+        "scope": "solidity",
+        "prefix": "test",
+        "body": [
+            "function test_$1() external {",
+            "",
+            "}",
+        ],
+        "description": "Create Foundry Test Function"
+    },
+}

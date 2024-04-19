@@ -1,0 +1,74 @@
+{
+    "Create int224 private state variable": {
+        "scope": "solidity",
+        "prefix": "int224Private",
+        "body": [
+            "int224 private s_$1;",
+        ],
+        "description": "Create a int224 private variable"
+    },
+    "Create int224 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int224PrivateConstant",
+        "body": [
+            "int224 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int224 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int224Public",
+        "body": [
+            "int224 public s_$1;",
+        ],
+        "description": "Create a int224 public variable"
+    },
+    "Create int224 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int224PublicConstant",
+        "body": [
+            "int224 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int224 public constant variable"
+    },
+    "Create int224 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int224Internal",
+        "body": [
+            "int224 internal s_$1;",
+        ],
+        "description": "Create a int224 internal variable"
+    },
+    "Create int224 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int224InternalConstant",
+        "body": [
+            "int224 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int224 internal constant variable"
+    },
+    "Create int224 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int224PrivateImmutable",
+        "body": [
+            "int224 private immutable i_$1;",
+        ],
+        "description": "Create a int224 private immutable variable"
+    },
+    "Create int224 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int224PublicImmutable",
+        "body": [
+            "int224 public immutable i_$1;",
+        ],
+        "description": "Create a int224 immutable public constant variable"
+    },
+    "Create int224 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int224InternalImmutable",
+        "body": [
+            "int224 internal immutable i_$1;",
+        ],
+        "description": "Create a int224 immutable internal variable"
+    },
+}

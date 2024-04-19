@@ -1,0 +1,24 @@
+{
+    "Create Echidna Test": {
+        "scope": "solidity",
+        "prefix": "echidnaTest",
+        "body": [
+            "contract $1EchidnaTest {",
+            "    function echidna_() public returns(bool) {",
+            "",
+            "    }",
+            "}"
+        ],
+        "description": "Create Echidna Test Contract"
+    },
+    "Create Echidna Test Function": {
+        "scope": "solidity",
+        "prefix": "testEchidna",
+        "body": [
+            "function echidna_$1() public returns(bool) {",
+            "",
+            "}",
+        ],
+        "description": "Create Echidna Test Function"
+    },
+}

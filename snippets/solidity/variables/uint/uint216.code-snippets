@@ -1,0 +1,74 @@
+{
+    "Create uint216 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint216Private",
+        "body": [
+            "uint216 private s_$1;",
+        ],
+        "description": "Create a uint216 private variable"
+    },
+    "Create uint216 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint216PrivateConstant",
+        "body": [
+            "uint216 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint216 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint216Public",
+        "body": [
+            "uint216 public s_$1;",
+        ],
+        "description": "Create a uint216 public variable"
+    },
+    "Create uint216 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint216PublicConstant",
+        "body": [
+            "uint216 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint216 public constant variable"
+    },
+    "Create uint216 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint216Internal",
+        "body": [
+            "uint216 internal s_$1;",
+        ],
+        "description": "Create a uint216 internal variable"
+    },
+    "Create uint216 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint216InternalConstant",
+        "body": [
+            "uint216 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint216 internal constant variable"
+    },
+    "Create uint216 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint216PrivateImmutable",
+        "body": [
+            "uint216 private immutable i_$1;",
+        ],
+        "description": "Create a uint216 private immutable variable"
+    },
+    "Create uint216 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint216PublicImmutable",
+        "body": [
+            "uint216 public immutable i_$1;",
+        ],
+        "description": "Create a uint216 immutable public constant variable"
+    },
+    "Create uint216 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint216InternalImmutable",
+        "body": [
+            "uint216 internal immutable i_$1;",
+        ],
+        "description": "Create a uint216 immutable internal variable"
+    },
+}

@@ -1,0 +1,142 @@
+{
+    "Import Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "importProxy",
+        "body": "import {Proxy} from \"@openzeppelin/contracts/proxy/Proxy.sol\";",
+        "description": "Import Proxy contract from @openzeppelin"
+    },
+    "Import Transparent Upgradeable Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "importTransparentUpgradeableProxy",
+        "body": "import {TransparentUpgradeableProxy} from \"@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol\";",
+        "description": "Import Transparent Upgradeable Proxy contract from @openzeppelin"
+    },
+    "Import Proxy Admin Contract": {
+        "scope": "solidity",
+        "prefix": "importProxyAdmin",
+        "body": "import {ProxyAdmin} from \"@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol\";",
+        "description": "Import Proxy Admin contract from @openzeppelin"
+    },
+    "Import Beacon Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "importBeaconProxy",
+        "body": "import {BeaconProxy} from \"@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol\";",
+        "description": "Import Beacon Proxy contract from @openzeppelin"
+    },
+    "Import Upgradeable Beacon Contract": {
+        "scope": "solidity",
+        "prefix": "importUpgradeableBeacon",
+        "body": "import {UpgradeableBeacon} from \"@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol\";",
+        "description": "Import Upgradeable Beacon contract from @openzeppelin"
+    },
+    "Import Initializable Contract": {
+        "scope": "solidity",
+        "prefix": "importInitializable",
+        "body": "import {Initializable} from \"@openzeppelin/contracts/proxy/utils/Initializable.sol\";",
+        "description": "Import Initializable contract from @openzeppelin"
+    },
+    "Import UUPS Upgradeable Contract": {
+        "scope": "solidity",
+        "prefix": "importUUPSUpgradeable",
+        "body": "import {UUPSUpgradeable} from \"@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol\";",
+        "description": "Import UUPS Upgradeable contract from @openzeppelin"
+    },
+    "Import Beacon Interface": {
+        "scope": "solidity",
+        "prefix": "importBeaconI",
+        "body": "import {IBeacon} from \"@openzeppelin/contracts/proxy/beacon/IBeacon.sol\";",
+        "description": "Import Beacon Interface from @openzeppelin"
+    },
+    "Import Clones Library": {
+        "scope": "solidity",
+        "prefix": "importClones",
+        "body": "import {Clones} from \"@openzeppelin/contracts/proxy/Clones.sol\";",
+        "description": "Import Clones Library from @openzeppelin"
+    },
+    "Create Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "proxy",
+        "body": [
+            "import {Proxy} from \"@openzeppelin/contracts/proxy/Proxy.sol\";",
+            "",
+            "contract $1 is Proxy {",
+            "   function _implementation()",
+            "       internal",
+            "       view",
+            "       virtual",
+            "       override",
+            "   returns (address) {}",
+            "}"
+        ],
+        "description": "Create Proxy contract using @openzeppelin dependencies"
+    },
+    "Create Transparent Upgradeable Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "transparentUpgradeableProxy",
+        "body": [
+            "import {TransparentUpgradeableProxy} from \"@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol\";",
+            "",
+            "contract $1 is TransparentUpgradeableProxy {",
+            "   constructor(",
+            "       address ${2:_logic},",
+            "       address ${3:initialOwner},",
+            "       bytes memory ${4:_data}",
+            "   ) TransparentUpgradeableProxy( ${2:_logic}, ${3:initialOwner}, ${4:_data}) {}",
+            "}"
+        ],
+        "description": "Create Transparent Upgradeable Proxy contract using @openzeppelin dependencies"
+    },
+    "Create Proxy Admin Contract": {
+        "scope": "solidity",
+        "prefix": "proxyAdmin",
+        "body": [
+            "import {ProxyAdmin} from \"@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol\";",
+            "",
+            "contract $1 is ProxyAdmin {",
+            "   constructor(address ${2:initialOwner}) ProxyAdmin(${2:initialOwner}) {}",
+            "}"
+        ],
+        "description": "Create Proxy Admin contract using @openzeppelin dependencies"
+    },
+    "Create Beacon Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "beaconProxy",
+        "body": [
+            "import {BeaconProxy} from \"@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol\";",
+            "",
+            "contract $1 is BeaconProxy {",
+            "   constructor(address ${2:beacon}, bytes memory ${3:data}) BeaconProxy(${2:beacon}, ${3:data}) {}",
+            "}"
+        ],
+        "description": "Create Beacon Proxy contract using @openzeppelin dependencies"
+    },
+    "Create Upgradeable Beacon Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "upgradeableBeaconProxy",
+        "body": [
+            "import {UpgradeableBeacon} from \"@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol\";",
+            "",
+            "contract $1 is UpgradeableBeacon {",
+            "   constructor(",
+            "       address ${2:implementation_},",
+            "       address ${3:initialOwner}",
+            "   ) UpgradeableBeacon(${2:implementation_}, ${3:initialOwner}) {}",
+            "}"
+        ],
+        "description": "Create Upgradeable Beacon Proxy contract using @openzeppelin dependencies"
+    },
+    "Create UUPS Upgradeable Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "uupsUpgradeableProxy",
+        "body": [
+            "import {UUPSUpgradeable} from \"@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol\";",
+            "",
+            "contract $1 is UUPSUpgradeable {",
+            "   function _authorizeUpgrade(",
+            "       address newImplementation",
+            "   ) internal virtual override {}",
+            "}"
+        ],
+        "description": "Create UUPS Upgradeable Proxy contract using @openzeppelin dependencies"
+    }
+}

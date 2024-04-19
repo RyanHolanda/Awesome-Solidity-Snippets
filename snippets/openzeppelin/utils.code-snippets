@@ -1,0 +1,122 @@
+{
+    "Import Math Library": {
+        "scope": "solidity",
+        "prefix": "importMath",
+        "body": "import {Math} from \"@openzeppelin/contracts/utils/math/Math.sol\";",
+        "description": "Import Math Library from @openzeppelin"
+    },
+    "Import Signed Math Library": {
+        "scope": "solidity",
+        "prefix": "importSignedMath",
+        "body": "import {SignedMath} from \"@openzeppelin/contracts/utils/math/SignedMath.sol\";",
+        "description": "Import Signed Math Library from @openzeppelin"
+    },
+    "Import Safe Cast Library": {
+        "scope": "solidity",
+        "prefix": "importSafeCast",
+        "body": "import {SafeCast} from \"@openzeppelin/contracts/utils/math/SafeCast.sol\";",
+        "description": "Import Safe Cast Library from @openzeppelin"
+    },
+    "Import String Library": {
+        "scope": "solidity",
+        "prefix": "importStrings",
+        "body": "import {Strings} from \"@openzeppelin/contracts/utils/Strings.sol\";",
+        "description": "Import String utils library from @openzeppelin"
+    },
+    "Import ECDSA Library": {
+        "scope": "solidity",
+        "prefix": "importECDSA",
+        "body": "import {ECDSA} from \"@openzeppelin/contracts/utils/cryptography/ECDSA.sol\";",
+        "description": "Import ECDSA Library from @openzeppelin"
+    },
+    "Import Message Hash Utils Library": {
+        "scope": "solidity",
+        "prefix": "importMessageHash",
+        "body": "import {MessageHashUtils} from \"@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol\";",
+        "description": "Import Message Hash Utils Library from @openzeppelin"
+    },
+    "Import Signature Checker Library": {
+        "scope": "solidity",
+        "prefix": "importSignatureChecker",
+        "body": "import {SignatureChecker} from \"@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol\";",
+        "description": "Import Signature Checker Library from @openzeppelin"
+    },
+    "Import Merkle Proof Library": {
+        "scope": "solidity",
+        "prefix": "importMerkleProof",
+        "body": "import {MerkleProof} from \"@openzeppelin/contracts/utils/cryptography/MerkleProof.sol\";",
+        "description": "Import Merkle Proof Library from @openzeppelin"
+    },
+    "Import EIP712 Contract": {
+        "scope": "solidity",
+        "prefix": "importEIP712",
+        "body": "import {EIP712} from \"@openzeppelin/contracts/utils/cryptography/EIP712.sol\";",
+        "description": "Import EIP712 Contract from @openzeppelin"
+    },
+    "Import Pausable Contract": {
+        "scope": "solidity",
+        "prefix": "importPausable",
+        "body": "import {Pausable} from \"@openzeppelin/contracts/utils/Pausable.sol\";",
+        "description": "Import Pausable Contract from @openzeppelin"
+    },
+    "Import Nonces": {
+        "scope": "solidity",
+        "prefix": "importNonces",
+        "body": "import {Nonces} from \"@openzeppelin/contracts/utils/Nonces.sol\";",
+        "description": "Import Nonces Contract from @openzeppelin"
+    },
+    "Import BitMaps Library": {
+        "scope": "solidity",
+        "prefix": "importBitmaps",
+        "body": "import {BitMaps} from \"@openzeppelin/contracts/utils/structs/Bitmaps.sol\";",
+        "description": "Import Bitmaps Library from @openzeppelin"
+    },
+    "Import Double Ended Queue Library": {
+        "scope": "solidity",
+        "prefix": "importDoubleEndedQueue",
+        "body": "import {DoubleEndedQueue} from \"@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol\";",
+        "description": "Import Doubled Ended Queue Library from @openzeppelin"
+    },
+    "Import Checkpoints Library": {
+        "scope": "solidity",
+        "prefix": "importCheckpoints",
+        "body": "import {Checkpoints} from \"@openzeppelin/contracts/utils/structs/Checkpoints.sol\";",
+        "description": "Import Checkpoints Library from @openzeppelin"
+    },
+    "Import Create2Library": {
+        "scope": "solidity",
+        "prefix": "importCreate2",
+        "body": "import {Create2} from \"@openzeppelin/contracts/utils/Create2.sol\";",
+        "description": "Import Create2 Library from @openzeppelin"
+    },
+    "Import Address Library": {
+        "scope": "solidity",
+        "prefix": "importAddress",
+        "body": "import {Address} from \"@openzeppelin/contracts/utils/Address.sol\";",
+        "description": "Import Address Library from @openzeppelin"
+    },
+    "Import Arrays Library": {
+        "scope": "solidity",
+        "prefix": "importArrays",
+        "body": "import {Arrays} from \"@openzeppelin/contracts/utils/Arrays.sol\";",
+        "description": "Import Arrays Library from @openzeppelin"
+    },
+    "Import Short Strings Library": {
+        "scope": "solidity",
+        "prefix": "importShortStrings",
+        "body": "import {ShortStrings} from \"@openzeppelin/contracts/utils/ShortStrings.sol\";",
+        "description": "Import Short Strings Library from @openzeppelin"
+    },
+    "Import Storage Slot Library": {
+        "scope": "solidity",
+        "prefix": "importStorageSlot",
+        "body": "import {StorageSlot} from \"@openzeppelin/contracts/utils/StorageSlot.sol\";",
+        "description": "Import Storage Slot Library from @openzeppelin"
+    },
+    "Import Context Library": {
+        "scope": "solidity",
+        "prefix": "importContext",
+        "body": "import {Context} from \"@openzeppelin/contracts/utils/Context.sol\";",
+        "description": "Import Context Library from @openzeppelin"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Create string private state variable": {
+        "scope": "solidity",
+        "prefix": "stringPrivate",
+        "body": [
+            "string private s_$1;",
+        ],
+        "description": "Create a string private variable"
+    },
+    "Create string[] private state variable": {
+        "scope": "solidity",
+        "prefix": "string[]Private",
+        "body": [
+            "string[] private s_$1;",
+        ],
+        "description": "Create a string[] private variable"
+    },
+    "Create string private constant variable": {
+        "scope": "solidity",
+        "prefix": "stringPrivateConstant",
+        "body": [
+            "string private constant ${1:NAME} = \"${2:value}\";",
+        ],
+        "description": "Create a string private constant variable"
+    },
+    "Create string public state variable": {
+        "scope": "solidity",
+        "prefix": "stringPublic",
+        "body": [
+            "string public s_$1;",
+        ],
+        "description": "Create a string public variable"
+    },
+    "Create string[] public state variable": {
+        "scope": "solidity",
+        "prefix": "string[]Public",
+        "body": [
+            "string[] public s_$1;",
+        ],
+        "description": "Create a string[] public variable"
+    },
+    "Create string public constant variable": {
+        "scope": "solidity",
+        "prefix": "stringPublicConstant",
+        "body": [
+            "string public constant ${1:NAME} = \"${2:value}\";",
+        ],
+        "description": "Create a string public constant variable"
+    },
+    "Create string internal state variable": {
+        "scope": "solidity",
+        "prefix": "stringInternal",
+        "body": [
+            "string internal s_$1;",
+        ],
+        "description": "Create a string internal variable"
+    },
+    "Create string[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "string[]Internal",
+        "body": [
+            "string[] internal s_$1;",
+        ],
+        "description": "Create a string[] internal variable"
+    },
+    "Create string internal constant variable": {
+        "scope": "solidity",
+        "prefix": "stringInternalConstant",
+        "body": [
+            "string internal constant ${1:NAME} = \"${2:value}\";",
+        ],
+        "description": "Create a string internal constant variable"
+    },
+}

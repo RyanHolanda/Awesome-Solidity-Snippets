@@ -1,0 +1,8 @@
+{
+    "Import Hardhat console": {
+        "scope": "solidity",
+        "prefix": "importHardhatConsole",
+        "body": "import {console} from \"hardhat/console.sol\";",
+        "description": "Import Hardhat console from Hardhat"
+    }
+}

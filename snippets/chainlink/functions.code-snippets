@@ -1,0 +1,38 @@
+{
+    "Import Functions Client Contract": {
+        "scope": "solidity",
+        "prefix": "importFunctionsClient",
+        "body": "import {FunctionsClient} from \"@chainlink/contracts/src/v0.8/functions/v1_0_0/FunctionsClient.sol\";",
+        "description": "Import Functions Client Contract from @chainlink"
+    },
+    "Import Functions Request Library": {
+        "scope": "solidity",
+        "prefix": "importFunctionsRequest",
+        "body": "import {FunctionsRequest} from \"@chainlink/contracts/src/v0.8/functions/v1_0_0/libraries/FunctionsRequest.sol\";",
+        "description": "Import Functions Request Library from @chainlink"
+    },
+    "Use Functions Request For Request": {
+        "scope": "solidity",
+        "prefix": "functionsRequestForRequest",
+        "body": "using FunctionsRequest for FunctionsRequest.Request;",
+        "description": "Use Functions Request Library for Request type"
+    },
+    "Create Functions Client Contract": {
+        "scope": "solidity",
+        "prefix": "functionsClient",
+        "body": [
+            "import {FunctionsClient} from \"@chainlink/contracts/src/v0.8/functions/v1_0_0/FunctionsClient.sol\";",
+            "",
+            "contract $1 is FunctionsClient {",
+            "   constructor(address ${2:router}) FunctionsClient(${2:router}) {}",
+            "",
+            "   function fulfillRequest(",
+            "      bytes32 requestId,",
+            "      bytes memory response,",
+            "      bytes memory err",
+            "   ) internal virtual override {}",
+            "}"
+        ],
+        "description": "Create Functions Client Contract using @chainlink dependencies"
+    }
+}

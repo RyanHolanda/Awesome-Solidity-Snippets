@@ -1,0 +1,14 @@
+{
+    "Import ERC3156 Flash Lender Interface": {
+        "scope": "solidity",
+        "prefix": "importERC3156FlashLenderI",
+        "body": "import {IERC3156FlashLender} from \"@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol\";",
+        "description": "Import ERC3156 Flash Lender Interface from @openzeppelin"
+    },
+    "Import ERC3156 Flash Borrower Interface": {
+        "scope": "solidity",
+        "prefix": "importERC3156FlashBorrowerI",
+        "body": "import {IERC3156FlashBorrower} from \"@openzeppelin/contracts/interfaces/IERC3156FlashBorrower.sol\";",
+        "description": "Import ERC3156 Flash Borrower Interface from @openzeppelin"
+    },
+}

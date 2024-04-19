@@ -1,0 +1,98 @@
+{
+    "Create int64 private state variable": {
+        "scope": "solidity",
+        "prefix": "int64Private",
+        "body": [
+            "int64 private s_$1;",
+        ],
+        "description": "Create a int64 private variable"
+    },
+    "Create int64[] private state variable": {
+        "scope": "solidity",
+        "prefix": "int64[]Private",
+        "body": [
+            "int64[] private s_$1;",
+        ],
+        "description": "Create a int64[] private variable"
+    },
+    "Create int64 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int64PrivateConstant",
+        "body": [
+            "int64 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int64 private constant variable"
+    },
+    "Create int64 public state variable": {
+        "scope": "solidity",
+        "prefix": "int64Public",
+        "body": [
+            "int64 public s_$1;",
+        ],
+        "description": "Create a int64 public variable"
+    },
+    "Create int64[] public state variable": {
+        "scope": "solidity",
+        "prefix": "int64[]Public",
+        "body": [
+            "int64[] public s_$1;",
+        ],
+        "description": "Create a int64[] public variable"
+    },
+    "Create int64 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int64PublicConstant",
+        "body": [
+            "int64 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int64 public constant variable"
+    },
+    "Create int64 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int64Internal",
+        "body": [
+            "int64 internal s_$1;",
+        ],
+        "description": "Create a int64 internal variable"
+    },
+    "Create int64[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "int64[]Internal",
+        "body": [
+            "int64[] internal s_$1;",
+        ],
+        "description": "Create a int64[] internal variable"
+    },
+    "Create int64 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int64InternalConstant",
+        "body": [
+            "int64 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int64 internal constant variable"
+    },
+    "Create int64 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int64PrivateImmutable",
+        "body": [
+            "int64 private immutable i_$1;",
+        ],
+        "description": "Create a int64 private immutable variable"
+    },
+    "Create int64 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int64PublicImmutable",
+        "body": [
+            "int64 public immutable i_$1;",
+        ],
+        "description": "Create a int64 immutable public constant variable"
+    },
+    "Create int64 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int64InternalImmutable",
+        "body": [
+            "int64 internal immutable i_$1;",
+        ],
+        "description": "Create a int64 immutable internal variable"
+    },
+}

@@ -1,0 +1,98 @@
+{
+    "Create address private state variable": {
+        "scope": "solidity",
+        "prefix": "addressPrivate",
+        "body": [
+            "address private s_$1;",
+        ],
+        "description": "Create an address private variable"
+    },
+    "Create address[] private state variable": {
+        "scope": "solidity",
+        "prefix": "address[]Private",
+        "body": [
+            "address[] private s_$1;",
+        ],
+        "description": "Create an address[] private variable"
+    },
+    "Create address private constant variable": {
+        "scope": "solidity",
+        "prefix": "addressPrivateConstant",
+        "body": [
+            "address private constant ${1:NAME} = ${2:0x0000000000000000000000000000000000000000};",
+        ],
+        "description": "Create an address private constant variable"
+    },
+    "Create address public state variable": {
+        "scope": "solidity",
+        "prefix": "addressPublic",
+        "body": [
+            "address public s_$1;",
+        ],
+        "description": "Create an address public variable"
+    },
+    "Create address[] public state variable": {
+        "scope": "solidity",
+        "prefix": "address[]Public",
+        "body": [
+            "address[] public s_$1;",
+        ],
+        "description": "Create an address[] public variable"
+    },
+    "Create address public constant variable": {
+        "scope": "solidity",
+        "prefix": "addressPublicConstant",
+        "body": [
+            "address public constant ${1:NAME} = ${2:0x0000000000000000000000000000000000000000};",
+        ],
+        "description": "Create an address public constant variable"
+    },
+    "Create address internal state variable": {
+        "scope": "solidity",
+        "prefix": "addressInternal",
+        "body": [
+            "address internal s_$1;",
+        ],
+        "description": "Create an address internal variable"
+    },
+    "Create address[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "address[]Internal",
+        "body": [
+            "address[] internal s_$1;",
+        ],
+        "description": "Create an address[] internal variable"
+    },
+    "Create address internal constant variable": {
+        "scope": "solidity",
+        "prefix": "addressInternalConstant",
+        "body": [
+            "address internal constant ${1:NAME} = ${2:0x0000000000000000000000000000000000000000};",
+        ],
+        "description": "Create an address internal constant variable"
+    },
+    "Create address immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "addressPrivateImmutable",
+        "body": [
+            "address private immutable i_$1;",
+        ],
+        "description": "Create an address private immutable variable"
+    },
+    "Create address immutable public variable": {
+        "scope": "solidity",
+        "prefix": "addressPublicImmutable",
+        "body": [
+            "address public immutable i_$1;",
+        ],
+        "description": "Create an address immutable public constant variable"
+    },
+    "Create address immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "addressInternalImmutable",
+        "body": [
+            "address internal immutable i_$1;",
+        ],
+        "description": "Create an address immutable internal variable"
+    },
+}

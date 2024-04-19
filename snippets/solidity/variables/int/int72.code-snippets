@@ -1,0 +1,74 @@
+{
+    "Create int72 private state variable": {
+        "scope": "solidity",
+        "prefix": "int72Private",
+        "body": [
+            "int72 private s_$1;",
+        ],
+        "description": "Create a int72 private variable"
+    },
+    "Create int72 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int72PrivateConstant",
+        "body": [
+            "int72 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int72 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int72Public",
+        "body": [
+            "int72 public s_$1;",
+        ],
+        "description": "Create a int72 public variable"
+    },
+    "Create int72 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int72PublicConstant",
+        "body": [
+            "int72 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int72 public constant variable"
+    },
+    "Create int72 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int72Internal",
+        "body": [
+            "int72 internal s_$1;",
+        ],
+        "description": "Create a int72 internal variable"
+    },
+    "Create int72 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int72InternalConstant",
+        "body": [
+            "int72 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int72 internal constant variable"
+    },
+    "Create int72 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int72PrivateImmutable",
+        "body": [
+            "int72 private immutable i_$1;",
+        ],
+        "description": "Create a int72 private immutable variable"
+    },
+    "Create int72 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int72PublicImmutable",
+        "body": [
+            "int72 public immutable i_$1;",
+        ],
+        "description": "Create a int72 immutable public constant variable"
+    },
+    "Create int72 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int72InternalImmutable",
+        "body": [
+            "int72 internal immutable i_$1;",
+        ],
+        "description": "Create a int72 immutable internal variable"
+    },
+}

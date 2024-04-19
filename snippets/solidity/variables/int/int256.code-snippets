@@ -1,0 +1,98 @@
+{
+    "Create int256 private state variable": {
+        "scope": "solidity",
+        "prefix": "int256Private",
+        "body": [
+            "int128 private s_$1;",
+        ],
+        "description": "Create a int256 private variable"
+    },
+    "Create int256 private[] state variable": {
+        "scope": "solidity",
+        "prefix": "int256[]Private",
+        "body": [
+            "int128[] private s_$1;",
+        ],
+        "description": "Create a int256[] private variable"
+    },
+    "Create int256 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int256PrivateConstant",
+        "body": [
+            "int256 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int256 private constant variable"
+    },
+    "Create int256 public state variable": {
+        "scope": "solidity",
+        "prefix": "int256Public",
+        "body": [
+            "int256 public s_$1;",
+        ],
+        "description": "Create a int256 public variable"
+    },
+    "Create int256[] public state variable": {
+        "scope": "solidity",
+        "prefix": "int256[]Public",
+        "body": [
+            "int256[] public s_$1;",
+        ],
+        "description": "Create a int256[] public variable"
+    },
+    "Create int256 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int256PublicConstant",
+        "body": [
+            "int256 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int256 public constant variable"
+    },
+    "Create int256 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int256Internal",
+        "body": [
+            "int256 internal s_$1;",
+        ],
+        "description": "Create a int256 internal variable"
+    },
+    "Create int256[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "int256[]Internal",
+        "body": [
+            "int256[] internal s_$1;",
+        ],
+        "description": "Create a int256[] internal variable"
+    },
+    "Create int256 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int256InternalConstant",
+        "body": [
+            "int256 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int256 internal constant variable"
+    },
+    "Create int256 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int256PrivateImmutable",
+        "body": [
+            "int256 private immutable i_$1;",
+        ],
+        "description": "Create a int256 private immutable variable"
+    },
+    "Create int256 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int256PublicImmutable",
+        "body": [
+            "int256 public immutable i_$1;",
+        ],
+        "description": "Create a int256 immutable public constant variable"
+    },
+    "Create int256 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int256InternalImmutable",
+        "body": [
+            "int256 internal immutable i_$1;",
+        ],
+        "description": "Create a int256 immutable internal variable"
+    },
+}

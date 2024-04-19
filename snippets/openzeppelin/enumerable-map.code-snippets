@@ -1,0 +1,68 @@
+{
+    "Import Enumerable Map Library": {
+        "scope": "solidity",
+        "prefix": "importEnumerableMap",
+        "body": "import {EnumerableMap} from \"@openzeppelin/contracts/utils/structs/EnumerableMap.sol\";",
+        "description": "Import Enumerable Map Library from @openzeppelin"
+    },
+    "Use Enumerable Map for Bytes32ToBytes32Map Map": {
+        "scope": "solidity",
+        "prefix": "useEnumerableMapForBytes32",
+        "body": "using EnumerableMap for EnumerableMap.Bytes32ToBytes32Map;",
+        "description": "Use Enumerable Map for Bytes32ToBytes32Map"
+    },
+    "Use Enumerable Map for UintToUint Map": {
+        "scope": "solidity",
+        "prefix": "useEnumerableMapForUint",
+        "body": "using EnumerableMap for EnumerableMap.UintToUintMap;",
+        "description": "Use Enumerable Map for UintToUint"
+    },
+    "Use Enumerable Map for UintToAddress Map": {
+        "scope": "solidity",
+        "prefix": "useEnumerableMapForUintToAddress",
+        "body": "using EnumerableMap for EnumerableMap.UintToAddressMap;",
+        "description": "Use Enumerable Map for UintToAddress"
+    },
+    "Use Enumerable Map for AddressToUint Map": {
+        "scope": "solidity",
+        "prefix": "useEnumerableMapForAddressToUint",
+        "body": "using EnumerableMap for EnumerableMap.AddressToUintMap;",
+        "description": "Use Enumerable Map for AddressToUint"
+    },
+    "Use Enumerable Map for Bytes32ToUint Map": {
+        "scope": "solidity",
+        "prefix": "useEnumerableMapForBytes32ToUint",
+        "body": "using EnumerableMap for EnumerableMap.Bytes32ToUintMap;",
+        "description": "Use Enumerable Map for Bytes32ToUint"
+    },
+    "Declare Enumerable Map for Bytes32ToBytes32Map Map Variable": {
+        "scope": "solidity",
+        "prefix": "enumerableMapBytes32",
+        "body": "EnumerableMap.Bytes32ToBytes32Map $1;",
+        "description": "Declare Enumerable Map for Bytes32ToBytes32Map variable"
+    },
+    "Declare Enumerable Map for UintToUint Map Variable": {
+        "scope": "solidity",
+        "prefix": "enumerableMapUint",
+        "body": "EnumerableMap.UintToUintMap $1;",
+        "description": "Declare Enumerable Map for UintToUint variable"
+    },
+    "Declare Enumerable Map for UintToAddress Map Variable": {
+        "scope": "solidity",
+        "prefix": "enumerableMapUintAddress",
+        "body": "EnumerableMap.UintToAddressMap $1;",
+        "description": "Declare Enumerable Map for UintToAddress variable"
+    },
+    "Declare Enumerable Map for AddressToUint Map Variable": {
+        "scope": "solidity",
+        "prefix": "enumerableMapAddressUint",
+        "body": "EnumerableMap.AddressToUintMap $1;",
+        "description": "Declare Enumerable Map for AddressToUint variable"
+    },
+    "Declare Enumerable Map for Bytes32ToUint Map Variable": {
+        "scope": "solidity",
+        "prefix": "enumerableMapBytes32Uint",
+        "body": "EnumerableMap.Bytes32ToUintMap $1;",
+        "description": "Declare Enumerable Map for Bytes32ToUint variable"
+    },
+}

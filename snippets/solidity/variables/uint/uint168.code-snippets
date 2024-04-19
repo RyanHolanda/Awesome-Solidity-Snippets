@@ -1,0 +1,74 @@
+{
+    "Create uint168 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint168Private",
+        "body": [
+            "uint128 private s_$1;",
+        ],
+        "description": "Create a uint168 private variable"
+    },
+    "Create uint168 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint168PrivateConstant",
+        "body": [
+            "uint168 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint168 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint168Public",
+        "body": [
+            "uint168 public s_$1;",
+        ],
+        "description": "Create a uint168 public variable"
+    },
+    "Create uint168 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint168PublicConstant",
+        "body": [
+            "uint168 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint168 public constant variable"
+    },
+    "Create uint168 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint168Internal",
+        "body": [
+            "uint168 internal s_$1;",
+        ],
+        "description": "Create a uint168 internal variable"
+    },
+    "Create uint168 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint168InternalConstant",
+        "body": [
+            "uint168 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint168 internal constant variable"
+    },
+    "Create uint168 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint168PrivateImmutable",
+        "body": [
+            "uint168 private immutable i_$1;",
+        ],
+        "description": "Create a uint168 private immutable variable"
+    },
+    "Create uint168 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint168PublicImmutable",
+        "body": [
+            "uint168 public immutable i_$1;",
+        ],
+        "description": "Create a uint168 immutable public constant variable"
+    },
+    "Create uint168 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint168InternalImmutable",
+        "body": [
+            "uint168 internal immutable i_$1;",
+        ],
+        "description": "Create a uint168 immutable internal variable"
+    },
+}

@@ -1,0 +1,8 @@
+{
+    "Import ERC5313 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC5313I",
+        "body": "import {IERC5313} from \"@openzeppelin/contracts/interfaces/IERC5313.sol\";",
+        "description": "Import ERC5313 Interface from @openzeppelin"
+    },
+}

@@ -1,0 +1,74 @@
+{
+    "Create uint40 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint40Private",
+        "body": [
+            "uint40 private s_$1;",
+        ],
+        "description": "Create a uint40 private variable"
+    },
+    "Create uint40 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint40PrivateConstant",
+        "body": [
+            "uint40 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint40 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint40Public",
+        "body": [
+            "uint40 public s_$1;",
+        ],
+        "description": "Create a uint40 public variable"
+    },
+    "Create uint40 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint40PublicConstant",
+        "body": [
+            "uint40 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint40 public constant variable"
+    },
+    "Create uint40 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint40Internal",
+        "body": [
+            "uint40 internal s_$1;",
+        ],
+        "description": "Create a uint40 internal variable"
+    },
+    "Create uint40 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint40InternalConstant",
+        "body": [
+            "uint40 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint40 internal constant variable"
+    },
+    "Create uint40 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint40PrivateImmutable",
+        "body": [
+            "uint40 private immutable i_$1;",
+        ],
+        "description": "Create a uint40 private immutable variable"
+    },
+    "Create uint40 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint40PublicImmutable",
+        "body": [
+            "uint40 public immutable i_$1;",
+        ],
+        "description": "Create a uint40 immutable public constant variable"
+    },
+    "Create uint40 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint40InternalImmutable",
+        "body": [
+            "uint40 internal immutable i_$1;",
+        ],
+        "description": "Create a uint40 immutable internal variable"
+    },
+}

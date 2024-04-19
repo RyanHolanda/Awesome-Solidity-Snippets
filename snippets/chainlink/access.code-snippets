@@ -1,0 +1,20 @@
+{
+    "Import Confirmed Owner Contract": {
+        "scope": "solidity",
+        "prefix": "importConfirmedOwner",
+        "body": "import {ConfirmedOwner} from \"@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol\";",
+        "description": "Import Confirmed Owner Contract from @chainlink"
+    },
+    "Create Confirmed Owner Contract": {
+        "scope": "solidity",
+        "prefix": "confirmedOwner",
+        "body": [
+            "import {ConfirmedOwner} from \"@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol\";",
+            "",
+            "contract $1 is ConfirmedOwner {",
+            "   constructor(address owner) ConfirmedOwner(owner) {}",
+            "}"
+        ],
+        "description": "Create Confirmed Owner Contract using @chainlink Dependencies"
+    }
+}

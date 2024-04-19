@@ -1,0 +1,74 @@
+{
+    "Create int208 private state variable": {
+        "scope": "solidity",
+        "prefix": "int208Private",
+        "body": [
+            "int208 private s_$1;",
+        ],
+        "description": "Create a int208 private variable"
+    },
+    "Create int208 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int208PrivateConstant",
+        "body": [
+            "int208 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int208 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int208Public",
+        "body": [
+            "int208 public s_$1;",
+        ],
+        "description": "Create a int208 public variable"
+    },
+    "Create int208 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int208PublicConstant",
+        "body": [
+            "int208 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int208 public constant variable"
+    },
+    "Create int208 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int208Internal",
+        "body": [
+            "int208 internal s_$1;",
+        ],
+        "description": "Create a int208 internal variable"
+    },
+    "Create int208 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int208InternalConstant",
+        "body": [
+            "int208 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int208 internal constant variable"
+    },
+    "Create int208 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int208PrivateImmutable",
+        "body": [
+            "int208 private immutable i_$1;",
+        ],
+        "description": "Create a int208 private immutable variable"
+    },
+    "Create int208 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int208PublicImmutable",
+        "body": [
+            "int208 public immutable i_$1;",
+        ],
+        "description": "Create a int208 immutable public constant variable"
+    },
+    "Create int208 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int208InternalImmutable",
+        "body": [
+            "int208 internal immutable i_$1;",
+        ],
+        "description": "Create a int208 immutable internal variable"
+    },
+}

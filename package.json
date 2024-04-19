@@ -1,0 +1,741 @@
+{
+  "name": "awesome-solidity-snippets",
+  "displayName": "Awesome Solidity Snippets",
+  "description": "Snippets for Solidity Language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "title": "OpenZeppelin Reentrancy Guard Snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/reentrancy-guard.code-snippets"
+      },
+      {
+        "title": "OpenZeppelin Enumerable Set Snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/enumerable-set.code-snippets"
+      },
+      {
+        "title": "OpenZeppelin Enumerable Map Snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/enumerable-map.code-snippets"
+      },
+      {
+        "title": "Openzeppelin access code snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/access.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Base64 code snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/base64.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC20 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc20.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC165 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc165.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC721 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc721.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC1271 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc1271.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC1363 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc1363.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC1820 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc1820.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC1822 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc1822.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC1967 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc1967.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC2612 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc2612.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC2771 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc2771.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC2981 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc2981.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC3156 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc3156.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC4626 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc4626.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC5267 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc5267.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC5313 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc5313.code-snippets"
+      },
+      {
+        "title": "Openzeppelin ERC6372 snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/erc6372.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Finance snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/finance.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Governance snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/governance.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Multicall snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/multicall.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Proxy snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/proxy.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Reentrancy Guard snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/reentrancy-guard.code-snippets"
+      },
+      {
+        "title": "Openzeppelin Utils snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin/utils.code-snippets"
+      },
+      {
+        "title": "Chainlink CCIP snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/ccip.code-snippets"
+      },
+      {
+        "title": "Chainlink DataFeeds snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/data-feeds.code-snippets"
+      },
+      {
+        "title": "Chainlink General snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/chainlink.code-snippets"
+      },
+      {
+        "title": "Chainlink LLO Feeds snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/llo-feeds.code-snippets"
+      },
+      {
+        "title": "Chainlink Automation snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/automation.code-snippets"
+      },
+      {
+        "title": "Chainlink Functions snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/functions.code-snippets"
+      },
+      {
+        "title": "Chainlink Access snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/access.code-snippets"
+      },
+      {
+        "title": "Chainlink VRF snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/vrf.code-snippets"
+      },
+      {
+        "title": "Chainlink Mock snippets",
+        "language": "solidity",
+        "path": "./snippets/chainlink/mocks.code-snippets"
+      },
+      {
+        "title": "Foundry Test snippets",
+        "language": "solidity",
+        "path": "./snippets/foundry/tests.code-snippets"
+      },
+      {
+        "title": "Foundry Script snippets",
+        "language": "solidity",
+        "path": "./snippets/foundry/scripts.code-snippets"
+      },
+      {
+        "title": "Foundry Script snippets",
+        "language": "solidity",
+        "path": "./snippets/echidna/echidna.code-snippets"
+      },
+      {
+        "title": "Solidity General snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/solidity.code-snippets"
+      },
+      {
+        "title": "Solidity function snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/functions.code-snippets"
+      },
+      {
+        "title": "Solidity String variables snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/strings.code-snippets"
+      },
+      {
+        "title": "Solidity int256 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int256.code-snippets"
+      },
+      {
+        "title": "Solidity int128 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int128.code-snippets"
+      },
+      {
+        "title": "Solidity int64 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int64.code-snippets"
+      },
+      {
+        "title": "Solidity int32 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int32.code-snippets"
+      },
+      {
+        "title": "Solidity int16 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int16.code-snippets"
+      },
+      {
+        "title": "Solidity int8 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int8.code-snippets"
+      },
+      {
+        "title": "Solidity int24 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int24.code-snippets"
+      },
+      {
+        "title": "Solidity int40 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int40.code-snippets"
+      },
+      {
+        "title": "Solidity int48 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int48.code-snippets"
+      },
+      {
+        "title": "Solidity int56 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int56.code-snippets"
+      },
+      {
+        "title": "Solidity int72 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int72.code-snippets"
+      },
+      {
+        "title": "Solidity int80 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int80.code-snippets"
+      },
+      {
+        "title": "Solidity int88 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int88.code-snippets"
+      },
+      {
+        "title": "Solidity int104 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int104.code-snippets"
+      },
+      {
+        "title": "Solidity int112 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int112.code-snippets"
+      },
+      {
+        "title": "Solidity int120 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int120.code-snippets"
+      },
+      {
+        "title": "Solidity int136 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int136.code-snippets"
+      },
+      {
+        "title": "Solidity int144 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int144.code-snippets"
+      },
+      {
+        "title": "Solidity int152 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int152.code-snippets"
+      },
+      {
+        "title": "Solidity int160 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int160.code-snippets"
+      },
+      {
+        "title": "Solidity int168 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int168.code-snippets"
+      },
+      {
+        "title": "Solidity int176 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int176.code-snippets"
+      },
+      {
+        "title": "Solidity int184 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int184.code-snippets"
+      },
+      {
+        "title": "Solidity int192 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int192.code-snippets"
+      },
+      {
+        "title": "Solidity int200 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int200.code-snippets"
+      },
+      {
+        "title": "Solidity int208 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int208.code-snippets"
+      },
+      {
+        "title": "Solidity int216 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int216.code-snippets"
+      },
+      {
+        "title": "Solidity int224 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int224.code-snippets"
+      },
+      {
+        "title": "Solidity int232 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int232.code-snippets"
+      },
+      {
+        "title": "Solidity int240 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int240.code-snippets"
+      },
+      {
+        "title": "Solidity int248 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/int/int248.code-snippets"
+      },
+      {
+        "title": "Solidity uint256 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint256.code-snippets"
+      },
+      {
+        "title": "Solidity uint128 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint128.code-snippets"
+      },
+      {
+        "title": "Solidity uint64 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint64.code-snippets"
+      },
+      {
+        "title": "Solidity uint32 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint32.code-snippets"
+      },
+      {
+        "title": "Solidity uint16 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint16.code-snippets"
+      },
+      {
+        "title": "Solidity uint8 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint8.code-snippets"
+      },
+      {
+        "title": "Solidity uint24 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint24.code-snippets"
+      },
+      {
+        "title": "Solidity uint40 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint40.code-snippets"
+      },
+      {
+        "title": "Solidity uint48 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint48.code-snippets"
+      },
+      {
+        "title": "Solidity uint56 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint56.code-snippets"
+      },
+      {
+        "title": "Solidity uint72 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint72.code-snippets"
+      },
+      {
+        "title": "Solidity uint80 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint80.code-snippets"
+      },
+      {
+        "title": "Solidity uint88 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint88.code-snippets"
+      },
+      {
+        "title": "Solidity uint104 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint104.code-snippets"
+      },
+      {
+        "title": "Solidity uint112 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint112.code-snippets"
+      },
+      {
+        "title": "Solidity uint120 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint120.code-snippets"
+      },
+      {
+        "title": "Solidity uint136 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint136.code-snippets"
+      },
+      {
+        "title": "Solidity uint144 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint144.code-snippets"
+      },
+      {
+        "title": "Solidity uint152 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint152.code-snippets"
+      },
+      {
+        "title": "Solidity uint160 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint160.code-snippets"
+      },
+      {
+        "title": "Solidity uint168 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint168.code-snippets"
+      },
+      {
+        "title": "Solidity uint176 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint176.code-snippets"
+      },
+      {
+        "title": "Solidity uint184 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint184.code-snippets"
+      },
+      {
+        "title": "Solidity uint192 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint192.code-snippets"
+      },
+      {
+        "title": "Solidity uint200 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint200.code-snippets"
+      },
+      {
+        "title": "Solidity uint208 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint208.code-snippets"
+      },
+      {
+        "title": "Solidity uint216 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint216.code-snippets"
+      },
+      {
+        "title": "Solidity uint224 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint224.code-snippets"
+      },
+      {
+        "title": "Solidity uint232 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint232.code-snippets"
+      },
+      {
+        "title": "Solidity uint240 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint240.code-snippets"
+      },
+      {
+        "title": "Solidity uint248 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/uint/uint248.code-snippets"
+      },
+      {
+        "title": "Solidity address variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/address.code-snippets"
+      },
+      {
+        "title": "Solidity bool variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bool.code-snippets"
+      },
+      {
+        "title": "Solidity bytes1 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes1.code-snippets"
+      },
+      {
+        "title": "Solidity bytes2 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes2.code-snippets"
+      },
+      {
+        "title": "Solidity bytes3 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes3.code-snippets"
+      },
+      {
+        "title": "Solidity bytes4 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes4.code-snippets"
+      },
+      {
+        "title": "Solidity bytes5 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes5.code-snippets"
+      },
+      {
+        "title": "Solidity bytes6 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes6.code-snippets"
+      },
+      {
+        "title": "Solidity bytes7 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes7.code-snippets"
+      },
+      {
+        "title": "Solidity bytes8 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes8.code-snippets"
+      },
+      {
+        "title": "Solidity bytes9 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes9.code-snippets"
+      },
+      {
+        "title": "Solidity bytes10 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes10.code-snippets"
+      },
+      {
+        "title": "Solidity bytes11 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes11.code-snippets"
+      },
+      {
+        "title": "Solidity bytes12 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes12.code-snippets"
+      },
+      {
+        "title": "Solidity bytes13 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes13.code-snippets"
+      },
+      {
+        "title": "Solidity bytes14 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes14.code-snippets"
+      },
+      {
+        "title": "Solidity bytes15 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes15.code-snippets"
+      },
+      {
+        "title": "Solidity bytes16 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes16.code-snippets"
+      },
+      {
+        "title": "Solidity bytes17 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes17.code-snippets"
+      },
+      {
+        "title": "Solidity bytes18 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes18.code-snippets"
+      },
+      {
+        "title": "Solidity bytes19 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes19.code-snippets"
+      },
+      {
+        "title": "Solidity bytes20 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes20.code-snippets"
+      },
+      {
+        "title": "Solidity bytes21 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes21.code-snippets"
+      },
+      {
+        "title": "Solidity bytes22 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes22.code-snippets"
+      },
+      {
+        "title": "Solidity bytes23 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes23.code-snippets"
+      },
+      {
+        "title": "Solidity bytes24 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes24.code-snippets"
+      },
+      {
+        "title": "Solidity bytes25 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes25.code-snippets"
+      },
+      {
+        "title": "Solidity bytes26 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes26.code-snippets"
+      },
+      {
+        "title": "Solidity bytes28 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes28.code-snippets"
+      },
+      {
+        "title": "Solidity bytes29 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes29.code-snippets"
+      },
+      {
+        "title": "Solidity bytes30 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes30.code-snippets"
+      },
+      {
+        "title": "Solidity bytes31 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes31.code-snippets"
+      },
+      {
+        "title": "Solidity bytes32 variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/bytes/bytes32.code-snippets"
+      },
+      {
+        "title": "Solidity Natspec snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/natspec.code-snippets"
+      },
+      {
+        "title": "Solidity Mapping variable snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/variables/mapping.code-snippets"
+      },
+      {
+        "title": "Solidity License snippets",
+        "language": "solidity",
+        "path": "./snippets/solidity/licenses.code-snippets"
+      },
+      {
+        "title": "Hardhat snippets",
+        "language": "solidity",
+        "path": "./snippets/hardhat/hardhat.code-snippets"
+      },
+      {
+        "title": "Solmate Auth snippets",
+        "language": "solidity",
+        "path": "./snippets/solmate/auth.code-snippets"
+      },
+      {
+        "title": "Solmate authorities snippets",
+        "language": "solidity",
+        "path": "./snippets/solmate/authorities.code-snippets"
+      },
+      {
+        "title": "Solmate WETH snippets",
+        "language": "solidity",
+        "path": "./snippets/solmate/weth.code-snippets"
+      },
+      {
+        "title": "Solmate Utils snippets",
+        "language": "solidity",
+        "path": "./snippets/solmate/utils.code-snippets"
+      }
+    ]
+  }
+}

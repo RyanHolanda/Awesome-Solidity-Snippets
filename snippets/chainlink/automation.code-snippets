@@ -1,0 +1,53 @@
+{
+    "Import Streams Lookup Compatible Interface": {
+        "scope": "solidity",
+        "prefix": "importStreamsLookupCompatibleI",
+        "body": "import {StreamsLookupCompatibleInterface} from \"@chainlink/contracts/src/v0.8/automation/interfaces/StreamsLookupCompatibleInterface.sol\";",
+        "description": "Import Streams Lookup Compatible Interface from @chainlink"
+    },
+    "Import Log Automation Interface": {
+        "scope": "solidity",
+        "prefix": "importLogAutomationI",
+        "body": "import {ILogAutomation} from \"@chainlink/contracts/src/v0.8/automation/interfaces/ILogAutomation.sol\";",
+        "description": "Import Log Automation Interface from @chainlink"
+    },
+    "Import Automation Compatible Interface": {
+        "scope": "solidity",
+        "prefix": "importAutomationCompatibleI",
+        "body": "import {AutomationCompatibleInterface} from \"@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol\";",
+        "description": "Import Automation Compatible Interface from @chainlink"
+    },
+    "Create Log Automation Contract": {
+        "scope": "solidity",
+        "prefix": "logAutomation",
+        "body": [
+            "import {ILogAutomation, Log} from \"@chainlink/contracts/src/v0.8/automation/interfaces/ILogAutomation.sol\";",
+            "",
+            "contract $1 is ILogAutomation {",
+            "   function checkLog(",
+            "       Log calldata log,",
+            "       bytes memory checkData",
+            "   ) external override returns (bool upkeepNeeded, bytes memory performData) {}",
+            "",
+            "   function performUpkeep(bytes calldata performData) external override {}",
+            "}",
+        ],
+        "description": "Create Log Automation Contract using @chainlink dependencies"
+    },
+    "Create Automation Comatible Contract": {
+        "scope": "solidity",
+        "prefix": "automationCompatible",
+        "body": [
+            "import {AutomationCompatibleInterface} from \"@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol\";",
+            "",
+            "contract $1 is AutomationCompatibleInterface {",
+            "   function checkUpkeep(",
+            "       bytes calldata checkData",
+            "   ) external override returns (bool upkeepNeeded, bytes memory performData) {}",
+            "",
+            "   function performUpkeep(bytes calldata performData) external override {}",
+            "}",
+        ],
+        "description": "Create Automation Compatible Contract using @chainlink dependencies"
+    }
+}

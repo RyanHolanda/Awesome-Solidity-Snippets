@@ -1,0 +1,26 @@
+{
+    "Import ERC1967 Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "importERC1967Proxy",
+        "body": "import {ERC1967Proxy} from \"@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol\";",
+        "description": "Import ERC1967 Proxy contract from @openzeppelin"
+    },
+    "Import ERC1967 Utils Library": {
+        "scope": "solidity",
+        "prefix": "importERC1967Utils",
+        "body": "import {ERC1967Utils} from \"@openzeppelin/contracts/proxy/ERC1967/ERC1967Utils.sol\";",
+        "description": "Import ERC1967 Utils Library from @openzeppelin"
+    },
+    "Create ERC1967 Proxy Contract": {
+        "scope": "solidity",
+        "prefix": "erc1967Proxy",
+        "body": [
+            "import {ERC1967Proxy} from \"@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol\";",
+            "",
+            "contract $1 is ERC1967Proxy {",
+            "    constructor(address ${2:implementation}, bytes memory ${3:data}) ERC1967Proxy(${2:implementation}, ${3:data}) {}",
+            "}",
+        ],
+        "description": "Create ERC1967 Proxy contract using @openzeppelin dependencies"
+    }
+}

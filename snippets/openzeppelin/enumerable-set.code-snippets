@@ -1,0 +1,56 @@
+{
+    "Import Enumerable Set Library": {
+        "scope": "solidity",
+        "prefix": "importEnumerableSet",
+        "body": "import {EnumerableSet} from \"@openzeppelin/contracts/utils/structs/EnumerableSet.sol\";",
+        "description": "Import Enumerable Set Library from @openzeppelin"
+    },
+    "Use Enumerable Set for Uint Set": {
+        "scope": "solidity",
+        "prefix": "useEnumerableSetForUint",
+        "body": "using EnumerableSet for EnumerableSet.UintSet;",
+        "description": "Use Enumerable Set Library for Uint Set"
+    },
+    "Use Enumerable Set for Bytes Set": {
+        "scope": "solidity",
+        "prefix": "useEnumerableSetForBytes",
+        "body": "using EnumerableSet for EnumerableSet.Bytes32Set;",
+        "description": "Use Enumerable Set Library for Bytes32 Set"
+    },
+    "Use Enumerable Set for Address Set": {
+        "scope": "solidity",
+        "prefix": "useEnumerableSetForAddress",
+        "body": "using EnumerableSet for EnumerableSet.AddressSet;",
+        "description": "Use Enumerable Set Library for Address Set"
+    },
+    "Use Enumerable Set for Set": {
+        "scope": "solidity",
+        "prefix": "useEnumerableSetForSet",
+        "body": "using EnumerableSet for EnumerableSet.Set;",
+        "description": "Use Enumerable Set Library for Set"
+    },
+    "Declare Set for Uint": {
+        "scope": "solidity",
+        "prefix": "enumerableSetUint",
+        "body": "EnumerableSet.UintSet $1;",
+        "description": "Declare Enumerable Set for Uint variable"
+    },
+    "Declare Set for Bytes32": {
+        "scope": "solidity",
+        "prefix": "enumerableSetBytes32",
+        "body": "EnumerableSet.Bytes32Set $1;",
+        "description": "Declare Enumerable Set for Bytes32 variable"
+    },
+    "Declare Set for Address": {
+        "scope": "solidity",
+        "prefix": "enumerableSetAddress",
+        "body": "EnumerableSet.AddressSet $1;",
+        "description": "Declare Enumerable Set for Address variable"
+    },
+    "Declare Set for Set": {
+        "scope": "solidity",
+        "prefix": "enumerableSetSet",
+        "body": "EnumerableSet.Set $1;",
+        "description": "Declare Enumerable Set for Set variable"
+    }
+}

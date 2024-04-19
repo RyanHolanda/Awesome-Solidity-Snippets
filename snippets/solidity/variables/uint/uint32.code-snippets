@@ -1,0 +1,98 @@
+{
+    "Create uint32 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint32Private",
+        "body": [
+            "uint32 private s_$1;",
+        ],
+        "description": "Create a uint32 private variable"
+    },
+    "Create uint32[] private state variable": {
+        "scope": "solidity",
+        "prefix": "uint32[]Private",
+        "body": [
+            "uint32[] private s_$1;",
+        ],
+        "description": "Create a uint32[] private variable"
+    },
+    "Create uint32 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint32PrivateConstant",
+        "body": [
+            "uint32 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint32 private constant variable"
+    },
+    "Create uint32 public state variable": {
+        "scope": "solidity",
+        "prefix": "uint32Public",
+        "body": [
+            "uint32 public s_$1;",
+        ],
+        "description": "Create a uint32 public variable"
+    },
+    "Create uint32[] public state variable": {
+        "scope": "solidity",
+        "prefix": "uint32[]Public",
+        "body": [
+            "uint32[] public s_$1;",
+        ],
+        "description": "Create a uint32[] public variable"
+    },
+    "Create uint32 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint32PublicConstant",
+        "body": [
+            "uint32 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint32 public constant variable"
+    },
+    "Create uint32 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint32Internal",
+        "body": [
+            "uint32 internal s_$1;",
+        ],
+        "description": "Create a uint32 internal variable"
+    },
+    "Create uint32[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint32[]Internal",
+        "body": [
+            "uint32[] internal s_$1;",
+        ],
+        "description": "Create a uint32[] internal variable"
+    },
+    "Create uint32 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint32InternalConstant",
+        "body": [
+            "uint32 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint32 internal constant variable"
+    },
+    "Create uint32 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint32PrivateImmutable",
+        "body": [
+            "uint32 private immutable i_$1;",
+        ],
+        "description": "Create a uint32 private immutable variable"
+    },
+    "Create uint32 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint32PublicImmutable",
+        "body": [
+            "uint32 public immutable i_$1;",
+        ],
+        "description": "Create a uint32 immutable public constant variable"
+    },
+    "Create uint32 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint32InternalImmutable",
+        "body": [
+            "uint32 internal immutable i_$1;",
+        ],
+        "description": "Create a uint32 immutable internal variable"
+    },
+}

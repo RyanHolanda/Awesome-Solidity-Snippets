@@ -1,0 +1,213 @@
+{
+    "Import ERC721 Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721",
+        "body": "import {ERC721} from \"@openzeppelin/contracts/token/ERC721/ERC721.sol\";",
+        "description": "Import ERC721 contract from @openzeppelin"
+    },
+    "Import ERC721 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC721I",
+        "body": "import {IERC721} from \"@openzeppelin/contracts/token/ERC721/IERC721.sol\";",
+        "description": "Import ERC721 Interface from @openzeppelin"
+    },
+    "Import ERC721 Errors Interface": {
+        "scope": "solidity",
+        "prefix": "importERC721ErrorsI",
+        "body": "import {IERC721Errors} from \"@openzeppelin/contracts/interfaces/draft-IERC6093.sol\";",
+        "description": "Import ERC721 Errors Interface from @openzeppelin"
+    },
+    "Import ERC 721 Metadata Interface": {
+        "scope": "solidity",
+        "prefix": "importERC721MetadataI",
+        "body": "import {IERC721Metadata} from \"@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol\";",
+        "description": "Import ERC721 Metadata Interface from @openzeppelin"
+    },
+    "Import ERC721 Enumerable Interface": {
+        "scope": "solidity",
+        "prefix": "importERC721EnumerableI",
+        "body": "import {IERC721Enumerable} from \"@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol\";",
+        "description": "Import ERC721 Enumerable Interface from @openzeppelin"
+    },
+    "Import ERC721 Receiver Interface": {
+        "scope": "solidity",
+        "prefix": "importERC721ReceiverI",
+        "body": "import {IERC721Receiver} from \"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol\";",
+        "description": "Import ERC721 Receiver Interface from @openzeppelin"
+    },
+    "Import ERC721 Pausable Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Pausable",
+        "body": "import {ERC721Pausable} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol\";",
+        "description": "Import ERC721 Pausable contract from @openzeppelin"
+    },
+    "Import ERC721 Burnable Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Burnable",
+        "body": "import {ERC721Burnable} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol\";",
+        "description": "Import ERC721 Burnable contract from @openzeppelin"
+    },
+    "Import ERC721 Consecutive Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Consecutive",
+        "body": "import {ERC721Consecutive} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Consecutive.sol\";",
+        "description": "Import ERC721 Consecutive contract from @openzeppelin"
+    },
+    "Import ERC721 Votes Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Votes",
+        "body": "import {ERC721Votes} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Votes.sol\";",
+        "description": "Import ERC721 Votes contract from @openzeppelin"
+    },
+    "Import ERC721 Royalty": {
+        "scope": "solidity",
+        "prefix": "importERC721Royalty",
+        "body": "import {ERC721Royalty} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Royalty.sol\";",
+        "description": "Import ERC721 Royalty contract from @openzeppelin"
+    },
+    "Import ERC721 Wrapper Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Wrapper",
+        "body": "import {ERC721Wrapper} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Wrapper.sol\";",
+        "description": "Import ERC721 Wrapper contract from @openzeppelin"
+    },
+    "Import ERC721 Holder": {
+        "scope": "solidity",
+        "prefix": "importERC721Holder",
+        "body": "import {ERC721Holder} from \"@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol\";",
+        "description": "Import ERC721 Holder contract from @openzeppelin"
+    },
+    "Import ERC721 Enumerable Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721Enumerable",
+        "body": "import {ERC721Enumerable} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol\";",
+        "description": "Import ERC721 Enumerable contract from @openzeppelin"
+    },
+    "Import ERC721URIStorage Contract": {
+        "scope": "solidity",
+        "prefix": "importERC721UriStorage",
+        "body": "import {ERC721URIStorage} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol\";",
+        "description": "Import ERC721 URI Storage contract from @openzeppelin"
+    },
+    "Create ERC721 Contract": {
+        "scope": "solidity",
+        "prefix": "erc721",
+        "body": [
+            "import {ERC721} from \"@openzeppelin/contracts/token/ERC721/ERC721.sol\";",
+            "",
+            "contract $1 is ERC721 {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Pausable Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Pausable",
+        "body": [
+            "import {ERC721Pausable, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol\";",
+            "",
+            "contract $1 is ERC721Pausable {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create a ERC721 Pausable contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Burnable Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Burnable",
+        "body": [
+            "import {ERC721Burnable, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol\";",
+            "",
+            "contract $1 is ERC721Burnable {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 Burnable contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Consecutive Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Consecutive",
+        "body": [
+            "import {ERC721Consecutive, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Consecutive.sol\";",
+            "",
+            "contract $1 is ERC721Consecutive {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 Consecutive contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Votes Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Votes",
+        "body": [
+            "import {ERC721Votes, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Votes.sol\";",
+            "import {EIP712} from \"@openzeppelin/contracts/utils/cryptography/EIP712.sol\";",
+            "",
+            "contract $1 is ERC721Votes {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") EIP712(\"${2:name}\", \"${4:version}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 Votes contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Royalty Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Royalty",
+        "body": [
+            "import {ERC721Royalty, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Royalty.sol\";",
+            "",
+            "contract $1 is ERC721Royalty {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 Royalty contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Wrapper Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Wrapper",
+        "body": [
+            "import {ERC721Wrapper, ERC721, IERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Wrapper.sol\";",
+            "",
+            "contract $1 is ERC721Wrapper {",
+            "  constructor(IERC721 ${2:underlyingToken}) ERC721(\"${3:name}\", \"${4:symbol}\") ERC721Wrapper(${2:underlyingToken}) {}",
+            "}",
+        ],
+        "description": "Create an ERC721 Wrapper contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Holder Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Holder",
+        "body": [
+            "import {ERC721Holder} from \"@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol\";",
+            "",
+            "contract $1 is ERC721Holder {",
+            "  constructor() { }",
+            "}",
+        ],
+        "description": "Create a ERC721 Holder contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 Enumerable Contract": {
+        "scope": "solidity",
+        "prefix": "erc721Enumerable",
+        "body": [
+            "import {ERC721Enumerable, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol\";",
+            "",
+            "contract $1 is ERC721Enumerable {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC721 Enumerable contract using @openzeppelin dependencies",
+    },
+    "Create ERC721 URI Storage Contract": {
+        "scope": "solidity",
+        "prefix": "erc721UriStorage",
+        "body": [
+            "import {ERC721URIStorage, ERC721} from \"@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol\";",
+            "",
+            "contract $1 is ERC721URIStorage {",
+            "  constructor() ERC721(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create a ERC721 URI Storage contract using @openzeppelin dependencies",
+    }
+}

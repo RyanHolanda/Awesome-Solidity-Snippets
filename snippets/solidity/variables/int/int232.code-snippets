@@ -1,0 +1,74 @@
+{
+    "Create int232 private state variable": {
+        "scope": "solidity",
+        "prefix": "int232Private",
+        "body": [
+            "int232 private s_$1;",
+        ],
+        "description": "Create a int232 private variable"
+    },
+    "Create int232 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int232PrivateConstant",
+        "body": [
+            "int232 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int232 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int232Public",
+        "body": [
+            "int232 public s_$1;",
+        ],
+        "description": "Create a int232 public variable"
+    },
+    "Create int232 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int232PublicConstant",
+        "body": [
+            "int232 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int232 public constant variable"
+    },
+    "Create int232 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int232Internal",
+        "body": [
+            "int232 internal s_$1;",
+        ],
+        "description": "Create a int232 internal variable"
+    },
+    "Create int232 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int232InternalConstant",
+        "body": [
+            "int232 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int232 internal constant variable"
+    },
+    "Create int232 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int232PrivateImmutable",
+        "body": [
+            "int232 private immutable i_$1;",
+        ],
+        "description": "Create a int232 private immutable variable"
+    },
+    "Create int232 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int232PublicImmutable",
+        "body": [
+            "int232 public immutable i_$1;",
+        ],
+        "description": "Create a int232 immutable public constant variable"
+    },
+    "Create int232 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int232InternalImmutable",
+        "body": [
+            "int232 internal immutable i_$1;",
+        ],
+        "description": "Create a int232 immutable internal variable"
+    },
+}

@@ -1,0 +1,8 @@
+{
+    "Import ERC6372 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC6372I",
+        "body": "import {IERC6372} from \"@openzeppelin/contracts/interfaces/IERC6372.sol\";",
+        "description": "Import ERC6372 Interface from @openzeppelin"
+    },
+}

@@ -1,0 +1,8 @@
+{
+    "Import WETH Contract": {
+        "scope": "solidity",
+        "prefix": "importWETH",
+        "body": "import {WETH} from \"solmate/src/tokens/WETH.sol\";",
+        "description": "Import WETH Contract from solmate"
+    },
+}

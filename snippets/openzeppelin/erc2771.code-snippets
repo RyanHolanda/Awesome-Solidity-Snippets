@@ -1,0 +1,38 @@
+{
+    "Import ERC2771 Context Contract": {
+        "scope": "solidity",
+        "prefix": "importERC2771Context",
+        "body": "import {ERC2771Context} from \"@openzeppelin/contracts/metatx/ERC2771Context.sol\";",
+        "description": "Import ERC2771 Context Contract from @openzeppelin"
+    },
+    "Import ERC2771 Forwarder Contract": {
+        "scope": "solidity",
+        "prefix": "importERC2771Forwader",
+        "body": "import {ERC2771Forwarder} from \"@openzeppelin/contracts/metatx/ERC2771Forwarder.sol\";",
+        "description": "Import ERC2771 Forwarder Contract from @openzeppelin"
+    },
+    "Create ERC2771 Context Contract": {
+        "scope": "solidity",
+        "prefix": "erc2771Context",
+        "body": [
+            "import {ERC2771Context} from \"@openzeppelin/contracts/metatx/ERC2771Context.sol\";",
+            "",
+            "contract $1 is ERC2771Context {",
+            "   constructor(address ${2:trustedForwarder__}) ERC2771Context(${2:trustedForwarder__}) {}",
+            "}"
+        ],
+        "description": "Create ERC2771 Context Contract using @openzeppelin dependencies"
+    },
+    "Create ERC2771 Forwarder Contract": {
+        "scope": "solidity",
+        "prefix": "erc2771Forwarder",
+        "body": [
+            "import {ERC2771Forwarder} from \"@openzeppelin/contracts/metatx/ERC2771Forwarder.sol\";",
+            "",
+            "contract $1 is ERC2771Forwarder {",
+            "   constructor() ERC2771Forwarder(\"${2:name}\") {}",
+            "}"
+        ],
+        "description": "Create ERC2771 Forwarder Contract using @openzeppelin dependencies"
+    }
+}

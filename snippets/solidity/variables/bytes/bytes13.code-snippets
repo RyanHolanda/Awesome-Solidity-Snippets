@@ -1,0 +1,74 @@
+{
+    "Create bytes13 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes13Private",
+        "body": [
+            "bytes13 private s_$1;",
+        ],
+        "description": "Create a bytes13 private variable"
+    },
+    "Create bytes13 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes13PrivateConstant",
+        "body": [
+            "bytes13 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes13 private constant variable"
+    },
+    "Create bytes13 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes13Public",
+        "body": [
+            "bytes13 public s_$1;",
+        ],
+        "description": "Create a bytes13 public variable"
+    },
+    "Create bytes13 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes13PublicConstant",
+        "body": [
+            "bytes13 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes13 public constant variable"
+    },
+    "Create bytes13 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes13Internal",
+        "body": [
+            "bytes13 internal s_$1;",
+        ],
+        "description": "Create a bytes13 internal variable"
+    },
+    "Create bytes13 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes13InternalConstant",
+        "body": [
+            "bytes13 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes13 internal constant variable"
+    },
+    "Create bytes13 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes13PrivateImmutable",
+        "body": [
+            "bytes13 private immutable i_$1;",
+        ],
+        "description": "Create a bytes13 private immutable variable"
+    },
+    "Create bytes13 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes13PublicImmutable",
+        "body": [
+            "bytes13 public immutable i_$1;",
+        ],
+        "description": "Create a bytes13 immutable public constant variable"
+    },
+    "Create bytes13 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes13InternalImmutable",
+        "body": [
+            "bytes13 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes13 immutable internal variable"
+    },
+}

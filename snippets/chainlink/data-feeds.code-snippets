@@ -1,0 +1,14 @@
+{
+    "Import AggregatorV3 Interface": {
+        "scope": "solidity",
+        "prefix": "importAggregatorV3I",
+        "body": "import {AggregatorV3Interface} from \"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol\";",
+        "description": "Import AggregatorV3 Interface from @chainlink"
+    },
+    "Import AggregatorV2V3 Interface": {
+        "scope": "solidity",
+        "prefix": "importAggregatorV2V3I",
+        "body": "import {AggregatorV2V3Interface} from \"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV2V3Interface.sol\";",
+        "description": "Import AggregatorV2V3 Interface from @chainlink"
+    }
+}

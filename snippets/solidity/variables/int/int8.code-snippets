@@ -1,0 +1,98 @@
+{
+    "Create int8 private state variable": {
+        "scope": "solidity",
+        "prefix": "int8Private",
+        "body": [
+            "int8 private s_$1;",
+        ],
+        "description": "Create a int8 private variable"
+    },
+    "Create int8[] private state variable": {
+        "scope": "solidity",
+        "prefix": "int8[]Private",
+        "body": [
+            "int8[] private s_$1;",
+        ],
+        "description": "Create a int8[] private variable"
+    },
+    "Create int8 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int8PrivateConstant",
+        "body": [
+            "int8 private constant ${1:NAME} = ${2:value};",
+        ],
+        "description": "Create a int8 private constant variable"
+    },
+    "Create int8 public state variable": {
+        "scope": "solidity",
+        "prefix": "int8Public",
+        "body": [
+            "int8 public s_$1;",
+        ],
+        "description": "Create a int8 public variable"
+    },
+    "Create int8[] public state variable": {
+        "scope": "solidity",
+        "prefix": "int8[]Public",
+        "body": [
+            "int8[] public s_$1;",
+        ],
+        "description": "Create a int8[] public variable"
+    },
+    "Create int8 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int8PublicConstant",
+        "body": [
+            "int8 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int8 public constant variable"
+    },
+    "Create int8 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int8Internal",
+        "body": [
+            "int8 internal s_$1;",
+        ],
+        "description": "Create a int8 internal variable"
+    },
+    "Create int8[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "int8[]Internal",
+        "body": [
+            "int8[] internal s_$1;",
+        ],
+        "description": "Create a int8[] internal variable"
+    },
+    "Create int8 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int8InternalConstant",
+        "body": [
+            "int8 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int8 internal constant variable"
+    },
+    "Create int8 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int8PrivateImmutable",
+        "body": [
+            "int8 private immutable i_$1;",
+        ],
+        "description": "Create a int8 private immutable variable"
+    },
+    "Create int8 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int8PublicImmutable",
+        "body": [
+            "int8 public immutable i_$1;",
+        ],
+        "description": "Create a int8 immutable public constant variable"
+    },
+    "Create int8 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int8InternalImmutable",
+        "body": [
+            "int8 internal immutable i_$1;",
+        ],
+        "description": "Create a int8 immutable internal variable"
+    },
+}

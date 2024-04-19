@@ -1,0 +1,74 @@
+{
+    "Create int168 private state variable": {
+        "scope": "solidity",
+        "prefix": "int168Private",
+        "body": [
+            "int128 private s_$1;",
+        ],
+        "description": "Create a int168 private variable"
+    },
+    "Create int168 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int168PrivateConstant",
+        "body": [
+            "int168 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int168 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int168Public",
+        "body": [
+            "int168 public s_$1;",
+        ],
+        "description": "Create a int168 public variable"
+    },
+    "Create int168 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int168PublicConstant",
+        "body": [
+            "int168 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int168 public constant variable"
+    },
+    "Create int168 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int168Internal",
+        "body": [
+            "int168 internal s_$1;",
+        ],
+        "description": "Create a int168 internal variable"
+    },
+    "Create int168 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int168InternalConstant",
+        "body": [
+            "int168 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int168 internal constant variable"
+    },
+    "Create int168 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int168PrivateImmutable",
+        "body": [
+            "int168 private immutable i_$1;",
+        ],
+        "description": "Create a int168 private immutable variable"
+    },
+    "Create int168 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int168PublicImmutable",
+        "body": [
+            "int168 public immutable i_$1;",
+        ],
+        "description": "Create a int168 immutable public constant variable"
+    },
+    "Create int168 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int168InternalImmutable",
+        "body": [
+            "int168 internal immutable i_$1;",
+        ],
+        "description": "Create a int168 immutable internal variable"
+    },
+}

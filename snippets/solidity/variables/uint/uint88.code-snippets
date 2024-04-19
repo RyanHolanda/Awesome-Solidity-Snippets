@@ -1,0 +1,74 @@
+{
+    "Create uint88 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint88Private",
+        "body": [
+            "uint88 private s_$1;",
+        ],
+        "description": "Create a uint88 private variable"
+    },
+    "Create uint88 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint88PrivateConstant",
+        "body": [
+            "uint88 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint88 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint88Public",
+        "body": [
+            "uint88 public s_$1;",
+        ],
+        "description": "Create a uint88 public variable"
+    },
+    "Create uint88 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint88PublicConstant",
+        "body": [
+            "uint88 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint88 public constant variable"
+    },
+    "Create uint88 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint88Internal",
+        "body": [
+            "uint88 internal s_$1;",
+        ],
+        "description": "Create a uint88 internal variable"
+    },
+    "Create uint88 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint88InternalConstant",
+        "body": [
+            "uint88 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint88 internal constant variable"
+    },
+    "Create uint88 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint88PrivateImmutable",
+        "body": [
+            "uint88 private immutable i_$1;",
+        ],
+        "description": "Create a uint88 private immutable variable"
+    },
+    "Create uint88 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint88PublicImmutable",
+        "body": [
+            "uint88 public immutable i_$1;",
+        ],
+        "description": "Create a uint88 immutable public constant variable"
+    },
+    "Create uint88 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint88InternalImmutable",
+        "body": [
+            "uint88 internal immutable i_$1;",
+        ],
+        "description": "Create a uint88 immutable internal variable"
+    },
+}

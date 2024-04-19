@@ -1,0 +1,74 @@
+{
+    "Create uint176 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint176Private",
+        "body": [
+            "uint176 private s_$1;",
+        ],
+        "description": "Create a uint176 private variable"
+    },
+    "Create uint176 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint176PrivateConstant",
+        "body": [
+            "uint176 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint176 private constant variable"
+    },
+    "Create uint176 public state variable": {
+        "scope": "solidity",
+        "prefix": "uint176Public",
+        "body": [
+            "uint176 public s_$1;",
+        ],
+        "description": "Create a uint176 public variable"
+    },
+    "Create uint176 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint176PublicConstant",
+        "body": [
+            "uint176 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint176 public constant variable"
+    },
+    "Create uint176 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint176Internal",
+        "body": [
+            "uint176 internal s_$1;",
+        ],
+        "description": "Create a uint176 internal variable"
+    },
+    "Create uint176 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint176InternalConstant",
+        "body": [
+            "uint176 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint176 internal constant variable"
+    },
+    "Create uint176 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint176PrivateImmutable",
+        "body": [
+            "uint176 private immutable i_$1;",
+        ],
+        "description": "Create a uint176 private immutable variable"
+    },
+    "Create uint176 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint176PublicImmutable",
+        "body": [
+            "uint176 public immutable i_$1;",
+        ],
+        "description": "Create a uint176 immutable public constant variable"
+    },
+    "Create uint176 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint176InternalImmutable",
+        "body": [
+            "uint176 internal immutable i_$1;",
+        ],
+        "description": "Create a uint176 immutable internal variable"
+    },
+}

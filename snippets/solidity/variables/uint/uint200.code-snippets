@@ -1,0 +1,74 @@
+{
+    "Create uint200 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint200Private",
+        "body": [
+            "uint200 private s_$1;",
+        ],
+        "description": "Create a uint200 private variable"
+    },
+    "Create uint200 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint200PrivateConstant",
+        "body": [
+            "uint200 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint200 private constant variable"
+    },
+    "Create uint public state variable": {
+        "scope": "solidity",
+        "prefix": "uint200Public",
+        "body": [
+            "uint200 public s_$1;",
+        ],
+        "description": "Create a uint200 public variable"
+    },
+    "Create uint200 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint200PublicConstant",
+        "body": [
+            "uint200 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint200 public constant variable"
+    },
+    "Create uint200 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint200Internal",
+        "body": [
+            "uint200 internal s_$1;",
+        ],
+        "description": "Create a uint200 internal variable"
+    },
+    "Create uint200 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint200InternalConstant",
+        "body": [
+            "uint200 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint200 internal constant variable"
+    },
+    "Create uint200 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint200PrivateImmutable",
+        "body": [
+            "uint200 private immutable i_$1;",
+        ],
+        "description": "Create a uint200 private immutable variable"
+    },
+    "Create uint200 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint200PublicImmutable",
+        "body": [
+            "uint200 public immutable i_$1;",
+        ],
+        "description": "Create a uint200 immutable public constant variable"
+    },
+    "Create uint200 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint200InternalImmutable",
+        "body": [
+            "uint200 internal immutable i_$1;",
+        ],
+        "description": "Create a uint200 immutable internal variable"
+    },
+}

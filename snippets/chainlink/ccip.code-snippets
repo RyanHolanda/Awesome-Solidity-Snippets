@@ -1,0 +1,43 @@
+{
+    "Import Router Client Interface": {
+        "scope": "solidity",
+        "prefix": "importRouterClientI",
+        "body": "import {IRouterClient} from \"@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol\";",
+        "description": "Import Router Client Interface from @chainlink"
+    },
+    "Import CCIP Receiver Contract": {
+        "scope": "solidity",
+        "prefix": "importCCIPReceiver",
+        "body": "import {CCIPReceiver} from \"@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol\";",
+        "description": "Import CCIP Receiver Contract from @chainlink"
+    },
+    "Import Owner Is Creator Contract": {
+        "scope": "solidity",
+        "prefix": "importOwnerIsCreator",
+        "body": "import {OwnerIsCreator} from \"@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol\";",
+        "description": "Import OwnerIsCreator Contract from @chainlink"
+    },
+    "Import Client Library": {
+        "scope": "solidity",
+        "prefix": "importClientLibrary",
+        "body": "import {Client} from \"@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol\";",
+        "description": "Import Client Library from @chainlink"
+    },
+    "Create CCIP Receiver Contract": {
+        "scope": "solidity",
+        "prefix": "ccipReceiver",
+        "body": [
+            "import {CCIPReceiver} from \"@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol\";",
+            "import {Client} from \"@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol\";",
+            "",
+            "contract $1 is CCIPReceiver {",
+            "  constructor(address ${2:_router}) CCIPReceiver(${2:_router}) {}",
+            "",
+            "   function _ccipReceive(",
+            "       Client.Any2EVMMessage memory message",
+            "   ) internal virtual override {}",
+            "}",
+        ],
+        "description": "Create CCIP Receiver Contract using @chainlink dependencies"
+    },
+}

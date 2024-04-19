@@ -1,0 +1,44 @@
+{
+    "Import Roles Authority Contract": {
+        "scope": "solidity",
+        "prefix": "importRolesAuthority",
+        "body": "import {RolesAuthority} from \"solmate/src/auth/authorities/RolesAuthority.sol\";",
+        "description": "Import Roles Authority Contract from solmate"
+    },
+    "Import Multi Roles Authority Contract": {
+        "scope": "solidity",
+        "prefix": "importMultiRolesAuthority",
+        "body": "import {MultiRolesAuthority} from \"solmate/src/auth/authorities/MultiRolesAuthority.sol\";",
+        "description": "Import Multi Roles Authority Contract from solmate"
+    },
+    "Create Roles Authority Contract": {
+        "scope": "solidity",
+        "prefix": "rolesAuthority",
+        "body": [
+            "import {RolesAuthority, Authority} from \"solmate/src/auth/authorities/RolesAuthority.sol\";",
+            "",
+            "contract $1 is RolesAuthority {",
+            "   constructor(address ${2:_owner}, Authority ${3:_authority}) RolesAuthority(${2:_owner}, ${3:_authority}) {",
+            "",
+            "   }",
+            "",
+            "}"
+        ],
+        "description": "Create Roles Authority Contract using solmate dependencies"
+    },
+    "Create Multi Roles Authority Contract": {
+        "scope": "solidity",
+        "prefix": "multiRolesAuthority",
+        "body": [
+            "import {MultiRolesAuthority, Authority} from \"solmate/src/auth/authorities/MultiRolesAuthority.sol\";",
+            "",
+            "contract $1 is MultiRolesAuthority {",
+            "   constructor(address ${2:_owner}, Authority ${3:_authority}) MultiRolesAuthority(${2:_owner}, ${3:_authority}) {",
+            "",
+            "   }",
+            "",
+            "}"
+        ],
+        "description": "Create Multi Roles Authority Contract using solmate dependencies"
+    }
+}

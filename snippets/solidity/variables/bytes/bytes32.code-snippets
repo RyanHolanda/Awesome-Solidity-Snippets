@@ -1,0 +1,98 @@
+{
+    "Create bytes32 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32Private",
+        "body": [
+            "bytes32 private s_$1;",
+        ],
+        "description": "Create a bytes32 private variable"
+    },
+    "Create bytes32[] private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32[]Private",
+        "body": [
+            "bytes32[] private s_$1;",
+        ],
+        "description": "Create a bytes32[] private variable"
+    },
+    "Create bytes32 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes32PrivateConstant",
+        "body": [
+            "bytes32 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes32 private constant variable"
+    },
+    "Create bytes32 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32Public",
+        "body": [
+            "bytes32 public s_$1;",
+        ],
+        "description": "Create a bytes32 public variable"
+    },
+    "Create bytes32[] public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32[]Public",
+        "body": [
+            "bytes32[] public s_$1;",
+        ],
+        "description": "Create a bytes32[] public variable"
+    },
+    "Create bytes32 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes32PublicConstant",
+        "body": [
+            "bytes32 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes32 public constant variable"
+    },
+    "Create bytes32 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32Internal",
+        "body": [
+            "bytes32 internal s_$1;",
+        ],
+        "description": "Create a bytes32 internal variable"
+    },
+    "Create bytes32[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32[]Internal",
+        "body": [
+            "bytes32[] internal s_$1;",
+        ],
+        "description": "Create a bytes32[] internal variable"
+    },
+    "Create bytes32 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes32InternalConstant",
+        "body": [
+            "bytes32 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes32 internal constant variable"
+    },
+    "Create bytes32 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes32PrivateImmutable",
+        "body": [
+            "bytes32 private immutable i_$1;",
+        ],
+        "description": "Create a bytes32 private immutable variable"
+    },
+    "Create bytes32 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes32PublicImmutable",
+        "body": [
+            "bytes32 public immutable i_$1;",
+        ],
+        "description": "Create a bytes32 immutable public constant variable"
+    },
+    "Create bytes32 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes32InternalImmutable",
+        "body": [
+            "bytes32 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes32 immutable internal variable"
+    },
+}

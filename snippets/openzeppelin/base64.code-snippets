@@ -1,0 +1,8 @@
+{
+    "Import Base64 Library": {
+        "scope": "solidity",
+        "prefix": "importBase64",
+        "body": "import {Base64} from \"@openzeppelin/contracts/utils/Base64.sol\";",
+        "description": "Import Base64 library from @openzeppelin"
+    },
+}

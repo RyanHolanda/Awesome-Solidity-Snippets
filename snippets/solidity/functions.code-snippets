@@ -1,0 +1,162 @@
+{
+    "Create a external View Function with return": {
+        "scope": "solidity",
+        "prefix": "externalFunctionViewReturn",
+        "body": [
+            "function $1($2) external view returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an external view function with return"
+    },
+    "Create a external Pure Function with return": {
+        "scope": "solidity",
+        "prefix": "externalFunctionPureReturn",
+        "body": [
+            "function $1($2) external pure returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an external pure function with return"
+    },
+    "Create a external Function with return": {
+        "scope": "solidity",
+        "prefix": "externalFunctionReturn",
+        "body": [
+            "function $1($2) external returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an external function with return"
+    },
+    "Create a external Function without return": {
+        "scope": "solidity",
+        "prefix": "externalFunction",
+        "body": [
+            "function $1($2) external {",
+            "    $3",
+            "}",
+        ],
+        "description": "Create an external function without return"
+    },
+    "Create a Public View Function with return": {
+        "scope": "solidity",
+        "prefix": "publicFunctionViewReturn",
+        "body": [
+            "function $1($2) public view returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an public view function with return"
+    },
+    "Create a Public Pure Function with return": {
+        "scope": "solidity",
+        "prefix": "publicFunctionPureReturn",
+        "body": [
+            "function $1($2) public pure returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an public pure function with return"
+    },
+    "Create a Public Function with return": {
+        "scope": "solidity",
+        "prefix": "publicFunctionReturn",
+        "body": [
+            "function $1($2) public returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an public function with return"
+    },
+    "Create a Public Function without return": {
+        "scope": "solidity",
+        "prefix": "publicFunction",
+        "body": [
+            "function $1($2) public {",
+            "    $3",
+            "}",
+        ],
+        "description": "Create an public function without return"
+    },
+    "Create an internal View Function with return": {
+        "scope": "solidity",
+        "prefix": "internalFunctionViewReturn",
+        "body": [
+            "function _$1($2) internal view returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an internal view function with return"
+    },
+    "Create a Internal Pure Function with return": {
+        "scope": "solidity",
+        "prefix": "internalFunctionPureReturn",
+        "body": [
+            "function _$1($2) internal pure returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an internal pure function with return"
+    },
+    "Create a Internal Function with return": {
+        "scope": "solidity",
+        "prefix": "internalFunctionReturn",
+        "body": [
+            "function _$1($2) internal returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an internal function with return"
+    },
+    "Create a Internal Function without return": {
+        "scope": "solidity",
+        "prefix": "internalFunction",
+        "body": [
+            "function _$1($2) internal {",
+            "    $3",
+            "}",
+        ],
+        "description": "Create an internal function without return"
+    },
+    "Create a Private View Function with return": {
+        "scope": "solidity",
+        "prefix": "privateFunctionViewReturn",
+        "body": [
+            "function _$1($2) private view returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an private view function with return"
+    },
+    "Create a Private Pure Function with return": {
+        "scope": "solidity",
+        "prefix": "privateFunctionPureReturn",
+        "body": [
+            "function _$1($2) private pure returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an private pure function with return"
+    },
+    "Create a Private Function with return": {
+        "scope": "solidity",
+        "prefix": "privateFunctionReturn",
+        "body": [
+            "function _$1($2) private returns ($3) {",
+            "    $4",
+            "}",
+        ],
+        "description": "Create an private function with return"
+    },
+    "Create a Private Function without return": {
+        "scope": "solidity",
+        "prefix": "privateFunction",
+        "body": [
+            "function _$1($2) private {",
+            "    $3",
+            "}",
+        ],
+        "description": "Create an private function without return"
+    },
+}

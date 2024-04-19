@@ -1,0 +1,32 @@
+{
+    "Impor ERC165 Contract": {
+        "scope": "solidity",
+        "prefix": "importERC165",
+        "body": "import {ERC165} from \"@openzeppelin/contracts/utils/introspection/ERC165.sol\";",
+        "description": "Import ERC165 Contract from @openzeppelin"
+    },
+    "Import ERC165 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC165I",
+        "body": "import {IERC165} from \"@openzeppelin/contracts/interfaces/IERC165.sol\";",
+        "description": "Import ERC165 Interface from @openzeppelin"
+    },
+    "Import ERC165 Checker Library": {
+        "scope": "solidity",
+        "prefix": "importERC165Checker",
+        "body": "import {ERC165Checker} from \"@openzeppelin/contracts/utils/introspection/ERC165Checker.sol\";",
+        "description": "Import ERC165 Checker Library from @openzeppelin"
+    },
+    "Create ERC165 Contract": {
+        "scope": "solidity",
+        "prefix": "erc165",
+        "body": [
+            "import {ERC165} from \"@openzeppelin/contracts/utils/introspection/ERC165.sol\";",
+            "",
+            "contract $1 is ERC165 {",
+            "",
+            "}"
+        ],
+        "description": "Create ERC165 Contract using @openzeppelin dependencies"
+    }
+}

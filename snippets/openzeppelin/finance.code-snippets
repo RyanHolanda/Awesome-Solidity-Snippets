@@ -1,0 +1,22 @@
+{
+    "Import Vesting Wallet Contract": {
+        "scope": "solidity",
+        "prefix": "importVestingWallet",
+        "body": "import {VestingWallet} from \"@openzeppelin/contracts/finance/VestingWallet.sol\";",
+        "description": "Import Vesting Wallet contract from @openzeppelin"
+    },
+    "Create Vesting Wallet Contract": {
+        "scope": "solidity",
+        "prefix": "vestingWallet",
+        "body": [
+            "import {VestingWallet} from \"@openzeppelin/contracts/finance/VestingWallet.sol\";",
+            "",
+            "contract $1 is VestingWallet {",
+            "    constructor(address ${2:beneficiary}) VestingWallet(${2:beneficiary}, ${3:startTimestamp}, ${4:durationSeconds}) {",
+            "",
+            "    }",
+            "}"
+        ],
+        "description": "Create Vesting Wallet contract using @openzeppelin dependencies"
+    }
+}

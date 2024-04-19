@@ -1,0 +1,98 @@
+{
+    "Create bool private state variable": {
+        "scope": "solidity",
+        "prefix": "boolPrivate",
+        "body": [
+            "bool private s_$1;",
+        ],
+        "description": "Create a bool private variable"
+    },
+    "Create bool[] private state variable": {
+        "scope": "solidity",
+        "prefix": "bool[]Private",
+        "body": [
+            "bool[] private s_$1;",
+        ],
+        "description": "Create a bool[] private variable"
+    },
+    "Create bool private constant variable": {
+        "scope": "solidity",
+        "prefix": "boolPrivateConstant",
+        "body": [
+            "bool private constant ${1:NAME} = ${2:false};",
+        ],
+        "description": "Create a bool private constant variable"
+    },
+    "Create bool public state variable": {
+        "scope": "solidity",
+        "prefix": "boolPublic",
+        "body": [
+            "bool public s_$1;",
+        ],
+        "description": "Create a bool public variable"
+    },
+    "Create bool[] public state variable": {
+        "scope": "solidity",
+        "prefix": "bool[]Public",
+        "body": [
+            "bool[] public s_$1;",
+        ],
+        "description": "Create a bool[] public variable"
+    },
+    "Create bool public constant variable": {
+        "scope": "solidity",
+        "prefix": "boolPublicConstant",
+        "body": [
+            "bool public constant ${1:NAME} = ${2:false};",
+        ],
+        "description": "Create a bool public constant variable"
+    },
+    "Create bool internal state variable": {
+        "scope": "solidity",
+        "prefix": "boolInternal",
+        "body": [
+            "bool internal s_$1;",
+        ],
+        "description": "Create a bool internal variable"
+    },
+    "Create bool[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "bool[]Internal",
+        "body": [
+            "bool[] internal s_$1;",
+        ],
+        "description": "Create a bool[] internal variable"
+    },
+    "Create bool internal constant variable": {
+        "scope": "solidity",
+        "prefix": "boolInternalConstant",
+        "body": [
+            "bool internal constant ${1:NAME} = ${2:false};",
+        ],
+        "description": "Create a bool internal constant variable"
+    },
+    "Create bool immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "boolPrivateImmutable",
+        "body": [
+            "bool private immutable i_$1;",
+        ],
+        "description": "Create a bool private immutable variable"
+    },
+    "Create bool immutable public variable": {
+        "scope": "solidity",
+        "prefix": "boolPublicImmutable",
+        "body": [
+            "bool public immutable i_$1;",
+        ],
+        "description": "Create a bool immutable public constant variable"
+    },
+    "Create bool immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "boolInternalImmutable",
+        "body": [
+            "bool internal immutable i_$1;",
+        ],
+        "description": "Create a bool immutable internal variable"
+    },
+}

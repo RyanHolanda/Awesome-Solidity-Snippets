@@ -1,0 +1,26 @@
+{
+    "Import Feed Registry Interface": {
+        "scope": "solidity",
+        "prefix": "importFeedRegistryI",
+        "body": "import {FeedRegistryInterface} from \"@chainlink/contracts/src/v0.8/interfaces/FeedRegistryInterface.sol\";",
+        "description": "Import Feed Registry Interface from @chainlink"
+    },
+    "Import Denominations Library": {
+        "scope": "solidity",
+        "prefix": "importDenominations",
+        "body": "import {Denominations} from \"@chainlink/contracts/src/v0.8/Denominations.sol\";",
+        "description": "Import Denominations Library from @chainlink"
+    },
+    "Import Link Token Interface": {
+        "scope": "solidity",
+        "prefix": "importLinkTokenI",
+        "body": "import {LinkTokenInterface} from \"@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol\";",
+        "description": "Import Link Token Interface from @chainlink"
+    },
+    "Import ERC677 Receiver Interface": {
+        "scope": "solidity",
+        "prefix": "importerc677receiverI",
+        "body": "import {IERC677Receiver} from \"@chainlink/contracts/src/v0.8/shared/interfaces/IERC677Receiver.sol\";",
+        "description": "Import ERC677 Receiver Interface from @chainlink"
+    },
+}

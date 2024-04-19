@@ -1,0 +1,98 @@
+{
+    "Create uint64 private state variable": {
+        "scope": "solidity",
+        "prefix": "uint64Private",
+        "body": [
+            "uint64 private s_$1;",
+        ],
+        "description": "Create a uint64 private variable"
+    },
+    "Create uint64[] private state variable": {
+        "scope": "solidity",
+        "prefix": "uint64[]Private",
+        "body": [
+            "uint64[] private s_$1;",
+        ],
+        "description": "Create a uint64[] private variable"
+    },
+    "Create uint64 private constant variable": {
+        "scope": "solidity",
+        "prefix": "uint64PrivateConstant",
+        "body": [
+            "uint64 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint64 private constant variable"
+    },
+    "Create uint64 public state variable": {
+        "scope": "solidity",
+        "prefix": "uint64Public",
+        "body": [
+            "uint64 public s_$1;",
+        ],
+        "description": "Create a uint64 public variable"
+    },
+    "Create uint64[] public state variable": {
+        "scope": "solidity",
+        "prefix": "uint64[]Public",
+        "body": [
+            "uint64[] public s_$1;",
+        ],
+        "description": "Create a uint64[] public variable"
+    },
+    "Create uint64 public constant variable": {
+        "scope": "solidity",
+        "prefix": "uint64PublicConstant",
+        "body": [
+            "uint64 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint64 public constant variable"
+    },
+    "Create uint64 internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint64Internal",
+        "body": [
+            "uint64 internal s_$1;",
+        ],
+        "description": "Create a uint64 internal variable"
+    },
+    "Create uint64[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "uint64[]Internal",
+        "body": [
+            "uint64[] internal s_$1;",
+        ],
+        "description": "Create a uint64[] internal variable"
+    },
+    "Create uint64 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "uint64InternalConstant",
+        "body": [
+            "uint64 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a uint64 internal constant variable"
+    },
+    "Create uint64 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "uint64PrivateImmutable",
+        "body": [
+            "uint64 private immutable i_$1;",
+        ],
+        "description": "Create a uint64 private immutable variable"
+    },
+    "Create uint64 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "uint64PublicImmutable",
+        "body": [
+            "uint64 public immutable i_$1;",
+        ],
+        "description": "Create a uint64 immutable public constant variable"
+    },
+    "Create uint64 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "uint64InternalImmutable",
+        "body": [
+            "uint64 internal immutable i_$1;",
+        ],
+        "description": "Create a uint64 immutable internal variable"
+    },
+}

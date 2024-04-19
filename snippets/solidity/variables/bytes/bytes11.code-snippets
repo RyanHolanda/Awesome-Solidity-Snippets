@@ -1,0 +1,74 @@
+{
+    "Create bytes11 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes11Private",
+        "body": [
+            "bytes11 private s_$1;",
+        ],
+        "description": "Create a bytes11 private variable"
+    },
+    "Create bytes11 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes11PrivateConstant",
+        "body": [
+            "bytes11 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes11 private constant variable"
+    },
+    "Create bytes11 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes11Public",
+        "body": [
+            "bytes11 public s_$1;",
+        ],
+        "description": "Create a bytes11 public variable"
+    },
+    "Create bytes11 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes11PublicConstant",
+        "body": [
+            "bytes11 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes11 public constant variable"
+    },
+    "Create bytes11 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes11Internal",
+        "body": [
+            "bytes11 internal s_$1;",
+        ],
+        "description": "Create a bytes11 internal variable"
+    },
+    "Create bytes11 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes11InternalConstant",
+        "body": [
+            "bytes11 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes11 internal constant variable"
+    },
+    "Create bytes11 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes11PrivateImmutable",
+        "body": [
+            "bytes11 private immutable i_$1;",
+        ],
+        "description": "Create a bytes11 private immutable variable"
+    },
+    "Create bytes11 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes11PublicImmutable",
+        "body": [
+            "bytes11 public immutable i_$1;",
+        ],
+        "description": "Create a bytes11 immutable public constant variable"
+    },
+    "Create bytes11 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes11InternalImmutable",
+        "body": [
+            "bytes11 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes11 immutable internal variable"
+    },
+}

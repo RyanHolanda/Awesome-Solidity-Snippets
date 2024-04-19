@@ -1,0 +1,20 @@
+{
+    "Import ERC1363 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC1363I",
+        "body": "import {IERC1363} from \"@openzeppelin/contracts/interfaces/IERC1363.sol\";",
+        "description": "Import ERC1363 Interface from @openzeppelin"
+    },
+    "Import ERC1363 Receiver Interface": {
+        "scope": "solidity",
+        "prefix": "importERC1363ReceiverI",
+        "body": "import {IERC1363Receiver} from \"@openzeppelin/contracts/interfaces/IERC1363Receiver.sol\";",
+        "description": "Import ERC1363 Receiver Interface from @openzeppelin"
+    },
+    "Import ERC1363 Spender Interface": {
+        "scope": "solidity",
+        "prefix": "importERC1363SpenderI",
+        "body": "import {IERC1363Spender} from \"@openzeppelin/contracts/interfaces/IERC1363Spender.sol\";",
+        "description": "Import ERC1363 Spender Interface from @openzeppelin"
+    },
+}

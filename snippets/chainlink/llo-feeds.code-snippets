@@ -1,0 +1,20 @@
+{
+    "Import Common Library": {
+        "scope": "solidity",
+        "prefix": "importCommon",
+        "body": "import {Common} from \"@chainlink/contracts/src/v0.8/llo-feeds/libraries/Common.sol\";",
+        "description": "Import Common Library from @chainlink"
+    },
+    "Import Reward Manager Interface": {
+        "scope": "solidity",
+        "prefix": "importRewardManagerI",
+        "body": "import {IRewardManager} from \"@chainlink/contracts/src/v0.8/llo-feeds/interfaces/IRewardManager.sol\";",
+        "description": "Import Reward Manager Interface from @chainlink"
+    },
+    "Import Verifier Fee Manager Interface": {
+        "scope": "solidity",
+        "prefix": "importVerifierFeeManagerI",
+        "body": "import {IVerifierFeeManager} from \"@chainlink/contracts/src/v0.8/llo-feeds/interfaces/IVerifierFeeManager.sol\";",
+        "description": "Import Verifier Fee Manager Interface from @chainlink"
+    }
+}

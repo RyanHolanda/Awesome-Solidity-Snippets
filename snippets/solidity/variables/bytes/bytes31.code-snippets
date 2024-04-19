@@ -1,0 +1,74 @@
+{
+    "Create bytes31 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes31Private",
+        "body": [
+            "bytes31 private s_$1;",
+        ],
+        "description": "Create a bytes31 private variable"
+    },
+    "Create bytes31 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes31PrivateConstant",
+        "body": [
+            "bytes31 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes31 private constant variable"
+    },
+    "Create bytes31 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes31Public",
+        "body": [
+            "bytes31 public s_$1;",
+        ],
+        "description": "Create a bytes31 public variable"
+    },
+    "Create bytes31 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes31PublicConstant",
+        "body": [
+            "bytes31 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes31 public constant variable"
+    },
+    "Create bytes31 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes31Internal",
+        "body": [
+            "bytes31 internal s_$1;",
+        ],
+        "description": "Create a bytes31 internal variable"
+    },
+    "Create bytes31 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes31InternalConstant",
+        "body": [
+            "bytes31 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes31 internal constant variable"
+    },
+    "Create bytes31 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes31PrivateImmutable",
+        "body": [
+            "bytes31 private immutable i_$1;",
+        ],
+        "description": "Create a bytes31 private immutable variable"
+    },
+    "Create bytes31 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes31PublicImmutable",
+        "body": [
+            "bytes31 public immutable i_$1;",
+        ],
+        "description": "Create a bytes31 immutable public constant variable"
+    },
+    "Create bytes31 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes31InternalImmutable",
+        "body": [
+            "bytes31 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes31 immutable internal variable"
+    },
+}

@@ -1,0 +1,23 @@
+{
+    "Import foundry Script contract": {
+        "scope": "solidity",
+        "prefix": "importFoundryScript",
+        "body": "import {Script} from \"forge-std/Script.sol\";",
+        "description": "Import Script contract from Forge"
+    },
+    "Create foundry Script contract": {
+        "scope": "solidity",
+        "prefix": "foundryScript",
+        "body": [
+            "import {Script} from \"forge-std/Script.sol\";",
+            "",
+            "contract $1Script is Script {",
+            "   function run() external {",
+            "",
+            "   }",
+            "",
+            "}",
+        ],
+        "description": "Create Script contract using Foundry Tools"
+    }
+}

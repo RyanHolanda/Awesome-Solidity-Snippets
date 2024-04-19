@@ -1,0 +1,74 @@
+{
+    "Create bytes27 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes27Private",
+        "body": [
+            "bytes27 private s_$1;",
+        ],
+        "description": "Create a bytes27 private variable"
+    },
+    "Create bytes27 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes27PrivateConstant",
+        "body": [
+            "bytes27 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes27 private constant variable"
+    },
+    "Create bytes27 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes27Public",
+        "body": [
+            "bytes27 public s_$1;",
+        ],
+        "description": "Create a bytes27 public variable"
+    },
+    "Create bytes27 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes27PublicConstant",
+        "body": [
+            "bytes27 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes27 public constant variable"
+    },
+    "Create bytes27 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes27Internal",
+        "body": [
+            "bytes27 internal s_$1;",
+        ],
+        "description": "Create a bytes27 internal variable"
+    },
+    "Create bytes27 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes27InternalConstant",
+        "body": [
+            "bytes27 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes27 internal constant variable"
+    },
+    "Create bytes27 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes27PrivateImmutable",
+        "body": [
+            "bytes27 private immutable i_$1;",
+        ],
+        "description": "Create a bytes27 private immutable variable"
+    },
+    "Create bytes27 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes27PublicImmutable",
+        "body": [
+            "bytes27 public immutable i_$1;",
+        ],
+        "description": "Create a bytes27 immutable public constant variable"
+    },
+    "Create bytes27 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes27InternalImmutable",
+        "body": [
+            "bytes27 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes27 immutable internal variable"
+    },
+}

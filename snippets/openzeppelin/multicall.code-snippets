@@ -1,0 +1,18 @@
+{
+    "Import Multicall Contract": {
+        "scope": "solidity",
+        "prefix": "importMulticall",
+        "body": "import {Multicall} from \"@openzeppelin/contracts/utils/Multicall.sol\";",
+        "description": "Import Multicall contract from @openzeppelin"
+    },
+    "Create Multicall Contract": {
+        "scope": "solidity",
+        "prefix": "multicall",
+        "body": [
+            "import {Multicall} from \"@openzeppelin/contracts/utils/Multicall.sol\";",
+            "",
+            "contract $1 is Multicall {}",
+        ],
+        "description": "Create Multicall contract using @openzeppelin dependencies"
+    }
+}

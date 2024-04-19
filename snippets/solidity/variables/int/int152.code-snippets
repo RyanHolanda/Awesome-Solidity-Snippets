@@ -1,0 +1,74 @@
+{
+    "Create int152 private state variable": {
+        "scope": "solidity",
+        "prefix": "int152Private",
+        "body": [
+            "int152 private s_$1;",
+        ],
+        "description": "Create a int152 private variable"
+    },
+    "Create int152 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int152PrivateConstant",
+        "body": [
+            "int152 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int152 private constant variable"
+    },
+    "Create int152 public state variable": {
+        "scope": "solidity",
+        "prefix": "int152Public",
+        "body": [
+            "int152 public s_$1;",
+        ],
+        "description": "Create a int152 public variable"
+    },
+    "Create int152 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int152PublicConstant",
+        "body": [
+            "int152 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int152 public constant variable"
+    },
+    "Create int152 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int152Internal",
+        "body": [
+            "int152 internal s_$1;",
+        ],
+        "description": "Create a int152 internal variable"
+    },
+    "Create int152 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int152InternalConstant",
+        "body": [
+            "int152 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int152 internal constant variable"
+    },
+    "Create int152 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int152PrivateImmutable",
+        "body": [
+            "int152 private immutable i_$1;",
+        ],
+        "description": "Create a int152 private immutable variable"
+    },
+    "Create int152 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int152PublicImmutable",
+        "body": [
+            "int152 public immutable i_$1;",
+        ],
+        "description": "Create a int152 immutable public constant variable"
+    },
+    "Create int152 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int152InternalImmutable",
+        "body": [
+            "int152 internal immutable i_$1;",
+        ],
+        "description": "Create a int152 immutable internal variable"
+    },
+}

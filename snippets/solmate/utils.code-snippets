@@ -1,0 +1,50 @@
+{
+    "Import SSTORE2 Library": {
+        "scope": "solidity",
+        "prefix": "importSSTORE2",
+        "body": "import {SSTORE2} from \"solmate/src/utils/SSTORE2.sol\";",
+        "description": "import SSTORE2 library from solmate"
+    },
+    "Import CREATE3 Library": {
+        "scope": "solidity",
+        "prefix": "importCREATE3",
+        "body": "import {CREATE3} from \"solmate/src/utils/CREATE3.sol\";",
+        "description": "import CREATE3 library from solmate"
+    },
+    "Import LibString Library": {
+        "scope": "solidity",
+        "prefix": "importLibString",
+        "body": "import {LibString} from \"solmate/src/utils/LibString.sol\";",
+        "description": "import LibString library from solmate"
+    },
+    "Import SignedWadMath Library": {
+        "scope": "solidity",
+        "prefix": "importSignedWadMath",
+        "body": "import \"solmate/src/utils/SignedWadMath.sol\";",
+        "description": "import SignedWadMath library from solmate"
+    },
+    "Import MerkleProofLib Library": {
+        "scope": "solidity",
+        "prefix": "importMerkleProofLib",
+        "body": "import {MerkleProofLib} from \"solmate/src/utils/MerkleProofLib.sol\";",
+        "description": "import MerkleProofLib library from solmate"
+    },
+    "Import FixedPointMathLib Library": {
+        "scope": "solidity",
+        "prefix": "importFixedPointMathLib",
+        "body": "import {FixedPointMathLib} from \"solmate/src/utils/FixedPointMathLib.sol\";",
+        "description": "import FixedPointMathLib library from solmate"
+    },
+    "Import Bytes32AddressLib Library": {
+        "scope": "solidity",
+        "prefix": "importBytes32AddressLib",
+        "body": "import {Bytes32AddressLib} from \"solmate/src/utils/Bytes32AddressLib.sol\";",
+        "description": "import Bytes32AddressLib library from solmate"
+    },
+    "Import SafeTransferLib Library": {
+        "scope": "solidity",
+        "prefix": "importSafeTransferLib",
+        "body": "import {SafeTransferLib} from \"solmate/src/utils/SafeTransferLib.sol\";",
+        "description": "import SafeTransferLib library from solmate"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Create mapping private state variable": {
+        "scope": "solidity",
+        "prefix": "mappingPrivate",
+        "body": [
+            "mapping($1 => $2) private s_$3;",
+        ],
+        "description": "Create a mapping private variable"
+    },
+    "Create mapping[] private state variable": {
+        "scope": "solidity",
+        "prefix": "mapping[]Private",
+        "body": [
+            "mapping($1 => $2)[] private s_$3;",
+        ],
+        "description": "Create a mapping[] private variable"
+    },
+    "Create mapping public state variable": {
+        "scope": "solidity",
+        "prefix": "mappingPublic",
+        "body": [
+            "mapping($1 => $2) public s_$3;",
+        ],
+        "description": "Create a mapping public variable"
+    },
+    "Create mapping[] public state variable": {
+        "scope": "solidity",
+        "prefix": "mapping[]Public",
+        "body": [
+            "mapping($1 => $2)[] public s_$3;",
+        ],
+        "description": "Create a mapping[] public variable"
+    },
+    "Create mapping internal state variable": {
+        "scope": "solidity",
+        "prefix": "mappingInternal",
+        "body": [
+            "mapping($1 => $2) internal s_$3;",
+        ],
+        "description": "Create a mapping internal variable"
+    },
+    "Create mapping[] internal state variable": {
+        "scope": "solidity",
+        "prefix": "mapping[]Internal",
+        "body": [
+            "mapping($1 => $2)[] internal s_$3;",
+        ],
+        "description": "Create a mapping[] internal variable"
+    },
+}

@@ -1,0 +1,74 @@
+{
+    "Create int96 private state variable": {
+        "scope": "solidity",
+        "prefix": "int96Private",
+        "body": [
+            "int96 private s_$1;",
+        ],
+        "description": "Create a int96 private variable"
+    },
+    "Create int96 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int96PrivateConstant",
+        "body": [
+            "int96 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int96 private constant variable"
+    },
+    "Create int public state variable": {
+        "scope": "solidity",
+        "prefix": "int96Public",
+        "body": [
+            "int96 public s_$1;",
+        ],
+        "description": "Create a int96 public variable"
+    },
+    "Create int96 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int96PublicConstant",
+        "body": [
+            "int96 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int96 public constant variable"
+    },
+    "Create int96 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int96Internal",
+        "body": [
+            "int96 internal s_$1;",
+        ],
+        "description": "Create a int96 internal variable"
+    },
+    "Create int96 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int96InternalConstant",
+        "body": [
+            "int96 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int96 internal constant variable"
+    },
+    "Create int96 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int96PrivateImmutable",
+        "body": [
+            "int96 private immutable i_$1;",
+        ],
+        "description": "Create a int96 private immutable variable"
+    },
+    "Create int96 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int96PublicImmutable",
+        "body": [
+            "int96 public immutable i_$1;",
+        ],
+        "description": "Create a int96 immutable public constant variable"
+    },
+    "Create int96 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int96InternalImmutable",
+        "body": [
+            "int96 internal immutable i_$1;",
+        ],
+        "description": "Create a int96 immutable internal variable"
+    },
+}

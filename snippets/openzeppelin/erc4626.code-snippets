@@ -1,0 +1,28 @@
+{
+    "Import ERC4626 Contract": {
+        "scope": "solidity",
+        "prefix": "importERC4626",
+        "body": "import {ERC4626} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC4626.sol\";",
+        "description": "Import ERC4626 contract from @openzeppelin"
+    },
+    "Import ERC4626 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC4626I",
+        "body": "import {IERC4626} from \"@openzeppelin/contracts/interfaces/IERC4626.sol\";",
+        "description": "Import ERC4626 Interface from @openzeppelin"
+    },
+    "Create ERC4626 Contract": {
+        "scope": "solidity",
+        "prefix": "erc4626",
+        "body": [
+            "import {ERC4626, IERC20, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC4626.sol\";",
+            "",
+            "contract $1 is ERC4626 {",
+            "   constructor(IERC20 ${2:asset}) ERC4626(${2:asset}) ERC20(\"${3:name}\", \"${4:symbol}\") {",
+            "",
+            "   }",
+            "}"
+        ],
+        "description": "Create ERC4626 contract using @openzeppelin dependencies"
+    },
+}

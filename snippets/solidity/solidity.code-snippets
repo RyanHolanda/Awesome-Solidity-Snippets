@@ -1,0 +1,65 @@
+{
+    "Use X Library for Y": {
+        "scope": "solidity",
+        "prefix": "using",
+        "body": [
+            "using ${1:Library} for ${2:Type};",
+        ],
+        "description": "Use X Library for Y Type"
+    },
+    "Create Constructor": {
+        "scope": "solidity",
+        "prefix": "constructor",
+        "body": [
+            "constructor() {",
+            "    $0",
+            "}",
+        ],
+        "description": "Create Constructor"
+    },
+    "Create Event": {
+        "scope": "solidity",
+        "prefix": "event",
+        "body": [
+            "event ${1:Name}($2);",
+        ],
+        "description": "Create Event"
+    },
+    "Create Max uint256": {
+        "scope": "solidity",
+        "prefix": "maxUint256",
+        "body": [
+            "type(uint256).max",
+        ],
+        "description": "Create max uint256"
+    },
+    "Create Unchecked Block": {
+        "scope": "solidity",
+        "prefix": "unchecked",
+        "body": [
+            "unchecked {",
+            "    $0",
+            "}",
+        ],
+        "description": "Create Unchecked Block"
+    },
+    "Create Modifier": {
+        "scope": "solidity",
+        "prefix": "modifier",
+        "body": [
+            "modifier ${1:Name}() {",
+            "    $2",
+            "    _;",
+            "}",
+        ],
+        "description": "Create Modifier"
+    },
+    "Create Custom error": {
+        "scope": "solidity",
+        "prefix": "error",
+        "body": [
+            "error ${1:Name}($2);",
+        ],
+        "description": "Create custom error"
+    }
+}

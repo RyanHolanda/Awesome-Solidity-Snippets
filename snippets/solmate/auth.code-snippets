@@ -1,0 +1,44 @@
+{
+    "Import Auth Contract": {
+        "scope": "solidity",
+        "prefix": "importAuth",
+        "body": "import {Auth} from \"solmate/src/auth/Auth.sol\";",
+        "description": "Import Auth Contract from solmate"
+    },
+    "Import Owned Contract": {
+        "scope": "solidity",
+        "prefix": "importOwned",
+        "body": "import {Owned} from \"solmate/src/auth/Owned.sol\";",
+        "description": "Import Owned Contract from solmate"
+    },
+    "Create Auth Contract": {
+        "scope": "solidity",
+        "prefix": "auth",
+        "body": [
+            "import {Auth, Authority} from \"solmate/src/auth/Auth.sol\";",
+            "",
+            "contract $1 is Auth {",
+            "   constructor(address ${2:_owner}, Authority ${3:_authority}) Auth(${2:_owner}, ${3:_authority}) {",
+            "",
+            "   }",
+            "",
+            "}"
+        ],
+        "description": "Create Auth Contract using solmate dependencies"
+    },
+    "Create Owned Contract": {
+        "scope": "solidity",
+        "prefix": "owned",
+        "body": [
+            "import {Owned} from \"solmate/src/auth/Owned.sol\";",
+            "",
+            "contract $1 is Owned {",
+            "   constructor(address ${2:_owner}) Owned(${2:_owner}) {",
+            "",
+            "   }",
+            "",
+            "}"
+        ],
+        "description": "Create Auth Contract using solmate dependencies"
+    }
+}

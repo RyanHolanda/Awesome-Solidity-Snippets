@@ -1,0 +1,74 @@
+{
+    "Create int160 private state variable": {
+        "scope": "solidity",
+        "prefix": "int160Private",
+        "body": [
+            "int160 private s_$1;",
+        ],
+        "description": "Create a int160 private variable"
+    },
+    "Create int160 private constant variable": {
+        "scope": "solidity",
+        "prefix": "int160PrivateConstant",
+        "body": [
+            "int160 private constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int160 private constant variable"
+    },
+    "Create int160 public state variable": {
+        "scope": "solidity",
+        "prefix": "int160Public",
+        "body": [
+            "int160 public s_$1;",
+        ],
+        "description": "Create a int160 public variable"
+    },
+    "Create int160 public constant variable": {
+        "scope": "solidity",
+        "prefix": "int160PublicConstant",
+        "body": [
+            "int160 public constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int160 public constant variable"
+    },
+    "Create int160 internal state variable": {
+        "scope": "solidity",
+        "prefix": "int160Internal",
+        "body": [
+            "int160 internal s_$1;",
+        ],
+        "description": "Create a int160 internal variable"
+    },
+    "Create int160 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "int160InternalConstant",
+        "body": [
+            "int160 internal constant ${1:NAME} = ${2:100_000};",
+        ],
+        "description": "Create a int160 internal constant variable"
+    },
+    "Create int160 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "int160PrivateImmutable",
+        "body": [
+            "int160 private immutable i_$1;",
+        ],
+        "description": "Create a int160 private immutable variable"
+    },
+    "Create int160 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "int160PublicImmutable",
+        "body": [
+            "int160 public immutable i_$1;",
+        ],
+        "description": "Create a int160 immutable public constant variable"
+    },
+    "Create int160 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "int160InternalImmutable",
+        "body": [
+            "int160 internal immutable i_$1;",
+        ],
+        "description": "Create a int160 immutable internal variable"
+    },
+}

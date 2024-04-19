@@ -1,0 +1,74 @@
+{
+    "Create bytes16 private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes16Private",
+        "body": [
+            "bytes16 private s_$1;",
+        ],
+        "description": "Create a bytes16 private variable"
+    },
+    "Create bytes16 private constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes16PrivateConstant",
+        "body": [
+            "bytes16 private constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes16 private constant variable"
+    },
+    "Create bytes16 public state variable": {
+        "scope": "solidity",
+        "prefix": "bytes16Public",
+        "body": [
+            "bytes16 public s_$1;",
+        ],
+        "description": "Create a bytes16 public variable"
+    },
+    "Create bytes16 public constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes16PublicConstant",
+        "body": [
+            "bytes16 public constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes16 public constant variable"
+    },
+    "Create bytes16 internal state variable": {
+        "scope": "solidity",
+        "prefix": "bytes16Internal",
+        "body": [
+            "bytes16 internal s_$1;",
+        ],
+        "description": "Create a bytes16 internal variable"
+    },
+    "Create bytes16 internal constant variable": {
+        "scope": "solidity",
+        "prefix": "bytes16InternalConstant",
+        "body": [
+            "bytes16 internal constant ${1:NAME} = ${2:0x0};",
+        ],
+        "description": "Create a bytes16 internal constant variable"
+    },
+    "Create bytes16 immutable private state variable": {
+        "scope": "solidity",
+        "prefix": "bytes16PrivateImmutable",
+        "body": [
+            "bytes16 private immutable i_$1;",
+        ],
+        "description": "Create a bytes16 private immutable variable"
+    },
+    "Create bytes16 immutable public variable": {
+        "scope": "solidity",
+        "prefix": "bytes16PublicImmutable",
+        "body": [
+            "bytes16 public immutable i_$1;",
+        ],
+        "description": "Create a bytes16 immutable public constant variable"
+    },
+    "Create bytes16 immutable internal variable": {
+        "scope": "solidity",
+        "prefix": "bytes16InternalImmutable",
+        "body": [
+            "bytes16 internal immutable i_$1;",
+        ],
+        "description": "Create a bytes16 immutable internal variable"
+    },
+}

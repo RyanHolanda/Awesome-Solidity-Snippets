@@ -1,0 +1,8 @@
+{
+    "Import ERC1822 Proxiable Interface": {
+        "scope": "solidity",
+        "prefix": "importERC1822ProxiableI",
+        "body": "import {IERC1822Proxiable} from \"@openzeppelin/contracts/interfaces/draft-IERC1822.sol\";",
+        "description": "Import ERC1822 Proxiable Interface from @openzeppelin"
+    },
+}

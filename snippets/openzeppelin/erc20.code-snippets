@@ -1,0 +1,154 @@
+{
+    "Import SafeERC20 Library": {
+        "scope": "solidity",
+        "prefix": "importSafeErc20",
+        "body": "import {SafeERC20} from \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";",
+        "description": "Import SafeERC20 library from @openzeppelin"
+    },
+    "Import ERC20 Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20",
+        "body": "import {ERC20} from \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";",
+        "description": "Import ERC20 contract from @openzeppelin"
+    },
+    "Import ERC20 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC20I",
+        "body": "import {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
+        "description": "Import ERC20 Interface from @openzeppelin"
+    },
+    "Import ERC20 Permit Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Permit",
+        "body": "import {ERC20Permit} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol\";",
+        "description": "Import ERC20 Permit contract from @openzeppelin"
+    },
+    "Import ERC20 Votes Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Votes",
+        "body": "import {ERC20Votes} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol\";",
+        "description": "Import ERC20 Votes contract from @openzeppelin"
+    },
+    "Import ERC20Wrapper Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Wrapper",
+        "body": "import {ERC20Wrapper} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Wrapper.sol\";",
+        "description": "Import ERC20 Wrapper contract from @openzeppelin"
+    },
+    "Import ERC20 Burnable Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Burnable",
+        "body": "import {ERC20Burnable} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol\";",
+        "description": "Import ERC20 Burnable contract from @openzeppelin"
+    },
+    "Import ERC20 Capped Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Capped",
+        "body": "import {ERC20Capped} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol\";",
+        "description": "Import ERC20 Capped contract from @openzeppelin"
+    },
+    "Import ERC20 Flash Mint Contract": {
+        "scope": "solidity",
+        "prefix": "importERC20FlashMint",
+        "body": "import {ERC20FlashMint} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol\";",
+        "description": "Import ERC20 Flash Mint contract from @openzeppelin"
+    },
+    "Import ERC20 Metadata Interface": {
+        "scope": "solidity",
+        "prefix": "importERC20MetadataI",
+        "body": "import {IERC20Metadata} from \"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\";",
+        "description": "Import ERC20 Metadata Interface from @openzeppelin"
+    },
+    "Import ERC20 Permit Interface": {
+        "scope": "solidity",
+        "prefix": "importERC20PermitI",
+        "body": "import {IERC20Permit} from \"@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol\";",
+        "description": "Import ERC20 Permit Interface from @openzeppelin"
+    },
+    "Create ERC20 Contract": {
+        "scope": "solidity",
+        "prefix": "erc20",
+        "body": [
+            "import {ERC20} from \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";",
+            "",
+            "contract $1 is ERC20 {",
+            "  constructor() ERC20(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC20 contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Permit Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Permit",
+        "body": [
+            "import {ERC20Permit, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol\";",
+            "",
+            "contract $1 is ERC20Permit {",
+            "  constructor() ERC20Permit(\"${2:name}\") ERC20(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC20 Permit contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Votes Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Votes",
+        "body": [
+            "import {ERC20Votes, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol\";",
+            "import {EIP712} from \"@openzeppelin/contracts/utils/cryptography/EIP712.sol\";",
+            "",
+            "contract $1 is ERC20Votes {",
+            "  constructor() ERC20(\"${2:name}\", \"${3:symbol}\") EIP712(\"${2:name}\", \"${4:version}\") { }",
+            "}",
+        ],
+        "description": "Create an ERC20 Votes contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Wrapper Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Wrapper",
+        "body": [
+            "import {ERC20Wrapper, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Wrapper.sol\";",
+            "import {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
+            "",
+            "contract $1 is ERC20Wrapper {",
+            "  constructor(IERC20 ${2:underlyingToken}) ERC20(\"${3:name}\", \"${4:symbol}\") ERC20Wrapper(${2:underlyingToken}) { }",
+            "}",
+        ],
+        "description": "Create an ERC20 Wrapper contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Burnable Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Burnable",
+        "body": [
+            "import {ERC20Burnable, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol\";",
+            "",
+            "contract $1 is ERC20Burnable {",
+            "  constructor() ERC20(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create a ERC20 Burnable contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Capped Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Capped",
+        "body": [
+            "import {ERC20Capped, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol\";",
+            "",
+            "contract $1 is ERC20Capped {",
+            "  constructor() ERC20(\"${2:name}\", \"${3:symbol}\") ERC20Capped(${4:1_000_000_000}) { }",
+            "}",
+        ],
+        "description": "Create a ERC20 Capped contract using @openzeppelin dependencies",
+    },
+    "Create ERC20FlashMint Contract": {
+        "scope": "solidity",
+        "prefix": "erc20FlashMint",
+        "body": [
+            "import {ERC20FlashMint, ERC20} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol\";",
+            "",
+            "contract $1 is ERC20FlashMint {",
+            "  constructor() ERC20(\"${2:name}\", \"${3:symbol}\") { }",
+            "}",
+        ],
+        "description": "Create a ERC20 Flash Mint contract using @openzeppelin dependencies",
+    },
+}

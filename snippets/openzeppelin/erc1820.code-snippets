@@ -1,0 +1,14 @@
+{
+    "Import ERC1820 Implementer Inteterface": {
+        "scope": "solidity",
+        "prefix": "importERC1820ImplementerI",
+        "body": "import {IERC1820Implementer} from \"@openzeppelin/contracts/interfaces/IERC1820Implementer.sol\";",
+        "description": "Import ERC1820 Implementer Interface from @openzeppelin"
+    },
+    "Import ERC1820 Registry Interface": {
+        "scope": "solidity",
+        "prefix": "importERC1820RegistryI",
+        "body": "import {IERC1820Registry} from \"@openzeppelin/contracts/interfaces/IERC1820Registry.sol\";",
+        "description": "Import ERC1820 Registry Interface from @openzeppelin"
+    },
+}

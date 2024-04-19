@@ -1,0 +1,60 @@
+{
+    "Import VRF Consumer Base V2 Contract": {
+        "scope": "solidity",
+        "prefix": "importVRFConsumerBaseV2",
+        "body": "import {VRFConsumerBaseV2} from \"@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol\";",
+        "description": "Import VRF Consumer Base V2 Contract from @chainlink"
+    },
+    "Import VRF Coordinator V2 Interface": {
+        "scope": "solidity",
+        "prefix": "importVRFCoordinatorV2I",
+        "body": "import {VRFCoordinatorV2Interface} from \"@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol\";",
+        "description": "Import VRF Coordinator V2 Interface from @chainlink"
+    },
+    "Import VRFV2 Wrapper Contract": {
+        "scope": "solidity",
+        "prefix": "importVRFV2Wrapper",
+        "body": "import {VRFV2Wrapper} from \"@chainlink/contracts/src/v0.8/vrf/VRFV2Wrapper.sol\";",
+        "description": "Import VRFV2 Wrapper Contract from @chainlink"
+    },
+    "Import VRF V2 Wrapper Consumer Base Contract": {
+        "scope": "solidity",
+        "prefix": "importVRFV2WrapperConsumerBase",
+        "body": "import {VRFV2WrapperConsumerBase} from \"@chainlink/contracts/src/v0.8/vrf/VRFV2WrapperConsumerBase.sol\";",
+        "description": "Import VRF V2 Wrapper Consumer Base Contract from @chainlink"
+    },
+    "Create VRF Consumer Base V2 Contract": {
+        "scope": "solidity",
+        "prefix": "vrfConsumerBaseV2",
+        "body": [
+            "import {VRFConsumerBaseV2} from \"@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol\";",
+            "",
+            "contract $1 is VRFConsumerBaseV2 {",
+            "   constructor(address ${2:_vrfCoordinator}) VRFConsumerBaseV2(${2:_vrfCoordinator}) {}",
+            "",
+            "   function fulfillRandomWords(",
+            "      uint256 requestId,",
+            "      uint256[] memory randomWords",
+            "   ) internal virtual override {}",
+            "}",
+        ],
+        "description": "Create VRF Consumer Base V2 Contract from @chainlink"
+    },
+    "Create VRF V2 Wrapper Consumer Base Contract": {
+        "scope": "solidity",
+        "prefix": "vrfV2WrapperConsumerBase",
+        "body": [
+            "import {VRFV2WrapperConsumerBase} from \"@chainlink/contracts/src/v0.8/vrf/VRFV2WrapperConsumerBase.sol\";",
+            "",
+            "contract $1 is VRFV2WrapperConsumerBase {",
+            "   constructor(address ${2:_link}, address ${3:_vrfV2Wrapper}) VRFV2WrapperConsumerBase( ${2:_link}, ${3:_vrfV2Wrapper}) {}",
+            "",
+            "   function fulfillRandomWords(",
+            "      uint256 requestId,",
+            "      uint256[] memory randomWords",
+            "   ) internal virtual override {}",
+            "}",
+        ],
+        "description": "Create VRF V2 Wrapper Consumer Base Contract using @chainlink dependencies"
+    }
+}

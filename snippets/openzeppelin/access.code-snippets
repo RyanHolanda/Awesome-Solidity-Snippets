@@ -1,0 +1,160 @@
+{
+    "Import Ownable Contract": {
+        "scope": "solidity",
+        "prefix": "importOwnable",
+        "body": "import {Ownable} from \"@openzeppelin/contracts/access/Ownable.sol\";",
+        "description": "Import Ownable contract from @openzeppelin"
+    },
+    "Import Ownable 2 Step contract": {
+        "scope": "solidity",
+        "prefix": "importOwnable2s",
+        "body": "import {Ownable2Step} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";",
+        "description": "Import Ownable 2 Step contract from @openzeppelin"
+    },
+    "Import Access Control Interface": {
+        "scope": "solidity",
+        "prefix": "importAccessControlI",
+        "body": "import {IAccessControl} from \"@openzeppelin/contracts/access/IAccessControl.sol\";",
+        "description": "Import Access Control Interface from @openzeppelin"
+    },
+    "Import Access Control Contract": {
+        "scope": "solidity",
+        "prefix": "importAccessControl",
+        "body": "import {AccessControl} from \"@openzeppelin/contracts/access/AccessControl.sol\";",
+        "description": "Import Access Control contract from @openzeppelin"
+    },
+    "Import Access Control Enumerable Interface": {
+        "scope": "solidity",
+        "prefix": "importAccessControlEnumerableI",
+        "body": "import {IAccessControlEnumerable} from \"@openzeppelin/contracts/access/extensions/IAccessControlEnumerable.sol\";",
+        "description": "Import Access Control Enumerable Interface from @openzeppelin"
+    },
+    "Import Access Control Enumerable Contract": {
+        "scope": "solidity",
+        "prefix": "importAccessControlEnumerable",
+        "body": "import {AccessControlEnumerable} from \"@openzeppelin/contracts/access/extensions/AccessControlEnumerable.sol\";",
+        "description": "Import Access Control Enumerable contract from @openzeppelin"
+    },
+    "Import Access Control Default Admin Rules Interface": {
+        "scope": "solidity",
+        "prefix": "importAccessControlDefaultAdminRulesI",
+        "body": "import {IAccessControlDefaultAdminRules} from \"@openzeppelin/contracts/access/extensions/IAccessControlDefaultAdminRules.sol\";",
+        "description": "Import Access Control Default Admin Rules Interface from @openzeppelin"
+    },
+    "Import Authority Interface": {
+        "scope": "solidity",
+        "prefix": "importAuthorityI",
+        "body": "import {IAuthority} from \"@openzeppelin/contracts/access/manager/IAuthority.sol\";",
+        "description": "Import Authority Interface from @openzeppelin"
+    },
+    "Import Access Manager Interface": {
+        "scope": "solidity",
+        "prefix": "importAccessManagerI",
+        "body": "import {IAccessManager} from \"@openzeppelin/contracts/access/manager/IAccessManager.sol\";",
+        "description": "Import Access Manager Interface from @openzeppelin"
+    },
+    "Import Access Manager Contract": {
+        "scope": "solidity",
+        "prefix": "importAccessManager",
+        "body": "import {AccessManager} from \"@openzeppelin/contracts/access/manager/AccessManager.sol\";",
+        "description": "Import Access Manager contract from @openzeppelin"
+    },
+    "Import Access Managed Interface": {
+        "scope": "solidity",
+        "prefix": "importAccessManagedI",
+        "body": "import {IAccessManaged} from \"@openzeppelin/contracts/access/manager/IAccessManaged.sol\";",
+        "description": "Import Access Managed Interface from @openzeppelin"
+    },
+    "Import Access Managed Contract": {
+        "scope": "solidity",
+        "prefix": "importAccessManaged",
+        "body": "import {AccessManaged} from \"@openzeppelin/contracts/access/manager/AccessManaged.sol\";",
+        "description": "Import Access Managed contract from @openzeppelin"
+    },
+    "Import Authority Utils Library": {
+        "scope": "solidity",
+        "prefix": "importAuthorityUtils",
+        "body": "import {AuthorityUtils} from \"@openzeppelin/contracts/access/manager/AuthorityUtils.sol\";",
+        "description": "Import Authority Utils Library from @openzeppelin"
+    },
+    "Create Ownable Contract": {
+        "scope": "solidity",
+        "prefix": "ownable",
+        "body": [
+            "import {Ownable} from \"@openzeppelin/contracts/access/Ownable.sol\";",
+            "",
+            "contract $1 is Ownable {",
+            "  constructor(address ${2:owner}) Ownable(${2:owner}) { }",
+            "}",
+        ],
+        "description": "Create an Ownable contract using @openzeppelin dependencies"
+    },
+    "Create Ownable 2 Step Contract": {
+        "scope": "solidity",
+        "prefix": "ownable2Step",
+        "body": [
+            "import {Ownable2Step, Ownable} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";",
+            "",
+            "contract $1 is Ownable2Step {",
+            "  constructor(address ${2:owner}) Ownable(${2:owner}) { }",
+            "}",
+        ],
+        "description": "Create an Ownable contract using @openzeppelin dependencies"
+    },
+    "Create Access Control Contract": {
+        "scope": "solidity",
+        "prefix": "accessControl",
+        "body": [
+            "import {AccessControl} from \"@openzeppelin/contracts/access/AccessControl.sol\";",
+            "",
+            "contract $1 is AccessControl {",
+            "   constructor() {",
+            "       grantRole(DEFAULT_ADMIN_ROLE, ${2:msg.sender});",
+            "   }",
+            "}",
+        ],
+        "description": "Create an Access Control contract using @openzeppelin dependencies",
+    },
+    "Create Acess Control Enumerable Contract": {
+        "scope": "solidity",
+        "prefix": "accessControlEnumerable",
+        "body": [
+            "import {AccessControlEnumerable} from \"@openzeppelin/contracts/access/extensions/AccessControlEnumerable.sol\";",
+            "",
+            "contract $1 is AccessControlEnumerable {",
+            "   constructor() {",
+            "       grantRole(DEFAULT_ADMIN_ROLE, ${2:msg.sender});",
+            "   }",
+            "}",
+        ],
+        "description": "Create an Access Control Enumerable contract using @openzeppelin dependencies",
+    },
+    "Create Access Manager Contract": {
+        "scope": "solidity",
+        "prefix": "accessManager",
+        "body": [
+            "import {AccessManager} from \"@openzeppelin/contracts/access/manager/AccessManager.sol\";",
+            "",
+            "contract $1 is AccessManager {",
+            "   constructor(address ${2:initialOwner}) AccessManager(${2:initialOwner}) {",
+            "",
+            "   }",
+            "}",
+        ],
+        "description": "Create an Access Manager contract using @openzeppelin dependencies",
+    },
+    "Create Access Managed Contract": {
+        "scope": "solidity",
+        "prefix": "accessManaged",
+        "body": [
+            "import {AccessManaged} from \"@openzeppelin/contracts/access/manager/AccessManaged.sol\";",
+            "",
+            "contract $1 is AccessManaged {",
+            "   constructor(address ${2:initialAuthority}) AccessManaged(${2:initialAuthority}) {",
+            "",
+            "   }",
+            "}",
+        ],
+        "description": "Create an Access Managed contract using @openzeppelin dependencies",
+    },
+}

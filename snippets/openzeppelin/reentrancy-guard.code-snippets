@@ -1,0 +1,18 @@
+{
+    "Import Reentrancy Guard Contract": {
+        "scope": "solidity",
+        "prefix": "importReentrancyGuard",
+        "body": "import {ReentrancyGuard} from \"@openzeppelin/contracts/utils/ReentrancyGuard.sol\";",
+        "description": "Import Reentrancy Guard contract from @openzeppelin"
+    },
+    "Create Reentrancy Guard Contract": {
+        "scope": "solidity",
+        "prefix": "reentrancyGuard",
+        "body": [
+            "import {ReentrancyGuard} from \"@openzeppelin/contracts/utils/ReentrancyGuard.sol\";",
+            "",
+            "contract $1 is ReentrancyGuard {}"
+        ],
+        "description": "Create Reentrancy Guard contract"
+    }
+}

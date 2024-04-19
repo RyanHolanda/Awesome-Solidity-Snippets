@@ -1,0 +1,62 @@
+{
+    "Create Unlicensed License": {
+        "scope": "solidity",
+        "prefix": "unlicensedLicense",
+        "body": "// SPDX-License-Identifier: UNLICENSED",
+        "description": "Create Unlicensed License"
+    },
+    "Create MIT License": {
+        "scope": "solidity",
+        "prefix": "mitLicense",
+        "body": "// SPDX-License-Identifier: MIT",
+        "description": "Create MIT License"
+    },
+    "Create BUSL-1.1 License": {
+        "scope": "solidity",
+        "prefix": "busl1.1License",
+        "body": "// SPDX-License-Identifier: BUSL-1.1",
+        "description": "Create BUSL-1.1 License"
+    },
+    "Create GNU GPLv3 License": {
+        "scope": "solidity",
+        "prefix": "gplv3License",
+        "body": "// SPDX-License-Identifier: GNU GPLv3",
+        "description": "Create GNU GPLv3 License"
+    },
+    "Create Apache License 2.0": {
+        "scope": "solidity",
+        "prefix": "apacheLicense2",
+        "body": "// SPDX-License-Identifier: Apache-2.0",
+        "description": "Create Apache License 2.0"
+    },
+    "Create BSD 3-Clause License": {
+        "scope": "solidity",
+        "prefix": "bsd3ClauseLicense",
+        "body": "// SPDX-License-Identifier: BSD-3-Clause",
+        "description": "Create BSD 3-Clause License"
+    },
+    "Create BSD 2-Clause License": {
+        "scope": "solidity",
+        "prefix": "bsd2ClauseLicense",
+        "body": "// SPDX-License-Identifier: BSD-2-Clause",
+        "description": "Create BSD 2-Clause License"
+    },
+    "Create ISC License": {
+        "scope": "solidity",
+        "prefix": "iscLicense",
+        "body": "// SPDX-License-Identifier: ISC",
+        "description": "Create ISC License"
+    },
+    "Create CC0 1.0 License": {
+        "scope": "solidity",
+        "prefix": "cc0License",
+        "body": "// SPDX-License-Identifier: CC0-1.0",
+        "description": "Create CC0 1.0 License"
+    },
+    "Create AGPL-3.0 License": {
+        "scope": "solidity",
+        "prefix": "agpl3License",
+        "body": "// SPDX-License-Identifier: AGPL-3.0",
+        "description": "Create AGPL-3.0 License"
+    },
+}
