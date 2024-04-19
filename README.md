@@ -680,4 +680,8 @@ At this time, there are no known issues. If you discover a bug or would like a n
 
 ### 1.0.0
 
-Initial release of Awesome Solidity Snippets
+Initial release of Awesome Solidity
+
+### 1.0.1
+
+Added Profile Picture and Adjusted Package.json

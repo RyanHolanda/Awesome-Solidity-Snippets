@@ -1,8 +1,28 @@
 {
   "name": "awesome-solidity-snippets",
   "displayName": "Awesome Solidity Snippets",
-  "description": "Snippets for Solidity Language",
-  "version": "1.0.0",
+  "description": "Snippets for Smart Contract Development with Solidity",
+  "version": "1.0.1",
+  "icon": "logo.png",
+  "publisher": "RyanHolanda",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "keywords": [
+    "snippets",
+    "solidity",
+    "smart contract"
+  ],
+  "homepage": "https://github.com/RyanHolanda/awesome-solidity-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanHolanda/awesome-solidity-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyanHolanda/awesome-solidity-snippets/issues",
+    "email": "ryanholanda08@gmail.com"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
