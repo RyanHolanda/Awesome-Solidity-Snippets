@@ -1,0 +1,22 @@
+name: "Publish Extension"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish Extension to Marketplace
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Node.js
+        run: sudo apt update && sudo apt install nodejs
+
+      - name: Install vsce
+        run: npm install -g vsce
+
+      - name: Publish Extension
+        run: vsce publish -p ${{ secrets.PERSONAL_ACCESS_TOKEN }}
