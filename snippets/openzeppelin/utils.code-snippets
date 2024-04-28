@@ -118,5 +118,17 @@
         "prefix": "importContext",
         "body": "import {Context} from \"@openzeppelin/contracts/utils/Context.sol\";",
         "description": "Import Context Library from @openzeppelin"
+    },
+    "Use Strings for uint256": {
+        "scope": "solidity",
+        "prefix": "useStringsForUint256",
+        "body": "using Strings for uint256;",
+        "description": "Use Strings library for uint256 type"
+    },
+    "Use Strings for address": {
+        "scope": "solidity",
+        "prefix": "useStringsForAddress",
+        "body": "using Strings for address;",
+        "description": "Use Strings library for address type"
     }
 }

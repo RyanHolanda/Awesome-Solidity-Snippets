@@ -2,7 +2,7 @@
   "name": "awesome-solidity-snippets",
   "displayName": "Awesome Solidity Snippets",
   "description": "Snippets for Smart Contract Development with Solidity",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "icon": "logo.png",
   "publisher": "RyanHolanda",
   "galleryBanner": {
@@ -755,6 +755,16 @@
         "title": "Solmate Utils snippets",
         "language": "solidity",
         "path": "./snippets/solmate/utils.code-snippets"
+      },
+      {
+        "title": "OpenZeppelin ERC20 Upgradeable snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin-upgradeable/erc20.code-snippets"
+      },
+      {
+        "title": "OpenZeppelin Ownable Upgradeable snippets",
+        "language": "solidity",
+        "path": "./snippets/openzeppelin-upgradeable/ownable.code-snippets"
       }
     ]
   }

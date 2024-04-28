@@ -1,0 +1,47 @@
+{
+    "Import ERC20 upgradeable contract": {
+        "scope": "solidity",
+        "prefix": "importERC20Upgradeable",
+        "body": "import {ERC20Upgradeable} from \"@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol\";",
+        "description": "Import ERC20 upgradeable contract from @openzeppelin"
+    },
+    "Import ERC20 Permit Upgradeable contract": {
+        "scope": "solidity",
+        "prefix": "importERC20PermitUpgradeable",
+        "body": "import {ERC20PermitUpgradeable} from \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol\";",
+        "description": "Import ERC20 Permit Upgradeable contract from @openzeppelin"
+    },
+    "Create ERC20 Upgradeable Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Upgradeable",
+        "body": [
+            "import {ERC20Upgradeable} from \"@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol\";",
+            "import {Initializable} from \"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\";",
+            "",
+            "contract $1 is Initializable, ERC20Upgradeable {",
+            "",
+            "   function intialize() external initializer {",
+            "     __ERC20_init(\"${2:name}\", \"${3:symbol}\");",
+            "   }",
+            "}",
+        ],
+        "description": "Create an ERC20 upgradeable contract using @openzeppelin dependencies",
+    },
+    "Create ERC20 Permit Upgradeable Contract": {
+        "scope": "solidity",
+        "prefix": "erc20PermitUpgradeable",
+        "body": [
+            "import {ERC20PermitUpgradeable} from \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol\";",
+            "import {Initializable} from \"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\";",
+            "",
+            "contract $1 is Initializable, ERC20PermitUpgradeable {",
+            "",
+            "   function intialize() external initializer {",
+            "     __ERC20_init(\"${2:name}\", \"${3:symbol}\");",
+            "     __ERC20Permit_init(\"${2:name}\");",
+            "   }",
+            "}",
+        ],
+        "description": "Create an ERC20 Permit Upgradeable contract using @openzeppelin dependencies",
+    }
+}

@@ -151,4 +151,10 @@
         ],
         "description": "Create a ERC20 Flash Mint contract using @openzeppelin dependencies",
     },
+    "Use Safe ERC20 for IERC20": {
+        "scope": "solidity",
+        "prefix": "useSafeERC20ForIERC20",
+        "body": "using SafeERC20 for IERC20;",
+        "description": "Use SafeERC20 library for IERC20 types"
+    }
 }

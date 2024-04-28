@@ -172,6 +172,13 @@ At this time, there are no known issues. If you discover a bug or would like a n
 | `accessManager`                         | AccessManager                                       | Create an Access Manager contract using @openzeppelin dependencies            |
 | `accessManaged`                         | Access Managed                                      | Create an Access Managed contract using @openzeppelin dependencies            |
 
+#### _Access Upgradeable_
+
+| Shortcut                   | Expanded                   | Description                                                             |
+| -------------------------- | -------------------------- | ----------------------------------------------------------------------- |
+| `importOwnableUpgradeable` | Import Ownable Upgradeable | Import Ownable Upgradeable contract from @openzeppelin                  |
+| `ownableUpgradeable`       | Ownable Upgradeable        | Create an Ownable Upgradeable contract using @openzeppelin dependencies |
+
 #### _Base 64_
 
 | Shortcut       | Expanded       | Description                              |
@@ -210,26 +217,36 @@ At this time, there are no known issues. If you discover a bug or would like a n
 
 #### _ERC20_
 
-| Shortcut               | Expanded                        | Description                                                         |
-| ---------------------- | ------------------------------- | ------------------------------------------------------------------- |
-| `importSafeERC20`      | Import Safe ERC20               | Import SafeERC20 library from @openzeppelin                         |
-| `importERC20`          | Import ERC20                    | Import ERC20 contract from @openzeppelin                            |
-| `importERC20I`         | Import ERC20 Interface          | Import ERC20 Interface from @openzeppelin                           |
-| `importERC20Permit`    | Import ERC20 Permit             | Import ERC20 Permit contract from @openzeppelin                     |
-| `importERC20Votes`     | Import ERC20 Votes              | Import ERC20 Votes contract from @openzeppelin                      |
-| `importERC20Wrapper`   | Import ERC20 Wrapper            | Import ERC20 Wrapper contract from @openzeppelin                    |
-| `importERC20Burnable`  | Import ERC20 Burnable           | Import ERC20 Burnable contract from @openzeppelin                   |
-| `importERC20Capped`    | Import ERC20 Capped             | Import ERC20 Capped contract from @openzeppelin                     |
-| `importERC20FlashMint` | Import ERC20 Flash Mint         | Import ERC20 Flash Mint contract from @openzeppelin                 |
-| `importERC20MetadataI` | Import ERC20 Metadata Interface | Import ERC20 Metadata Interface from @openzeppelin                  |
-| `importERC20PermitI`   | Import ERC20 Permit Interface   | Import ERC20 Permit Interface from @openzeppelin                    |
-| `erc20`                | ERC20                           | Create an ERC20 contract using @openzeppelin dependencies           |
-| `erc20Permit`          | ERC20 Permit                    | Create an ERC20 Permit contract using @openzeppelin dependencies    |
-| `erc20Votes`           | ERC20 Votes                     | Create an ERC20 Votes contract using @openzeppelin dependencies     |
-| `erc20Wrapper`         | ER20 Wrapper                    | Create an ERC20 Wrapper contract using @openzeppelin dependencies   |
-| `erc20Burnable`        | ERC20 Burnable                  | Create an ERC20 Burnable contract using @openzeppelin dependencies  |
-| `erc20Capped`          | ERC20 Capped                    | Create a ERC20 Capped contract using @openzeppelin dependencies     |
-| `erc20FlashMint`       | ERC20 Flash Mint                | Create a ERC20 Flash Mint contract using @openzeppelin dependencies |
+| Shortcut                | Expanded                        | Description                                                         |
+| ----------------------- | ------------------------------- | ------------------------------------------------------------------- |
+| `importSafeERC20`       | Import Safe ERC20               | Import SafeERC20 library from @openzeppelin                         |
+| `importERC20`           | Import ERC20                    | Import ERC20 contract from @openzeppelin                            |
+| `importERC20I`          | Import ERC20 Interface          | Import ERC20 Interface from @openzeppelin                           |
+| `importERC20Permit`     | Import ERC20 Permit             | Import ERC20 Permit contract from @openzeppelin                     |
+| `importERC20Votes`      | Import ERC20 Votes              | Import ERC20 Votes contract from @openzeppelin                      |
+| `importERC20Wrapper`    | Import ERC20 Wrapper            | Import ERC20 Wrapper contract from @openzeppelin                    |
+| `importERC20Burnable`   | Import ERC20 Burnable           | Import ERC20 Burnable contract from @openzeppelin                   |
+| `importERC20Capped`     | Import ERC20 Capped             | Import ERC20 Capped contract from @openzeppelin                     |
+| `importERC20FlashMint`  | Import ERC20 Flash Mint         | Import ERC20 Flash Mint contract from @openzeppelin                 |
+| `importERC20MetadataI`  | Import ERC20 Metadata Interface | Import ERC20 Metadata Interface from @openzeppelin                  |
+| `importERC20PermitI`    | Import ERC20 Permit Interface   | Import ERC20 Permit Interface from @openzeppelin                    |
+| `erc20`                 | ERC20                           | Create an ERC20 contract using @openzeppelin dependencies           |
+| `erc20Permit`           | ERC20 Permit                    | Create an ERC20 Permit contract using @openzeppelin dependencies    |
+| `erc20Votes`            | ERC20 Votes                     | Create an ERC20 Votes contract using @openzeppelin dependencies     |
+| `erc20Wrapper`          | ER20 Wrapper                    | Create an ERC20 Wrapper contract using @openzeppelin dependencies   |
+| `erc20Burnable`         | ERC20 Burnable                  | Create an ERC20 Burnable contract using @openzeppelin dependencies  |
+| `erc20Capped`           | ERC20 Capped                    | Create a ERC20 Capped contract using @openzeppelin dependencies     |
+| `erc20FlashMint`        | ERC20 Flash Mint                | Create a ERC20 Flash Mint contract using @openzeppelin dependencies |
+| `useSafeERC20ForIERC20` | Use Safe ERC20 For IERC20       | Use SafeERC20 library for IERC20 type                               |
+
+#### _ERC20 Upgradeable_
+
+| Shortcut                       | Expanded                        | Description                                                                  |
+| ------------------------------ | ------------------------------- | ---------------------------------------------------------------------------- |
+| `importERC20Upgradeable`       | Import ERC20 Upgradeable        | Import ERC20 Upgradeable contract from @openzeppelin                         |
+| `erc20Upgradeable`             | ERC20 Upgradeable               | Create an ERC20 Upgradeable contract using @openzeppelin dependencies        |
+| `importERC20PermitUpgradeable` | Import ERC20 Permit Upgradeable | Import ERC20 Permit Upgradeable contract from @openzeppelin                  |
+| `erc20PermitUpgradeable`       | ERC20 Permit Upgradeable        | Create an ERC20 Permit Upgradeable contract using @openzeppelin dependencies |
 
 #### _ERC165_
 
@@ -474,6 +491,8 @@ At this time, there are no known issues. If you discover a bug or would like a n
 | `importShortStrings`     | Import Short Strings      | Import Short Strings Library from @openzeppelin       |
 | `importStorageSlot`      | Import Storage Slot       | Import Storage Slot Library from @openzeppelin        |
 | `importContext`          | Import Context            | Import Context Library from @openzeppelin"            |
+| `useStringsForAdress`    | Use Strings For Address   | Use Strings Library For Address type                  |
+| `useStringsForUint256`   | Use Strings For Uint256   | Use Strings Library For Uint256 type                  |
 
 ### Solmate
 
@@ -680,8 +699,13 @@ At this time, there are no known issues. If you discover a bug or would like a n
 
 ### 1.0.0
 
-Initial release of Awesome Solidity
+- Initial release of Awesome Solidity
 
 ### 1.0.1
 
-Added Profile Picture and Adjusted Package.json
+- Added Profile Picture and Adjusted Package.json
+
+### 1.1.0
+
+- Added OpenZeppelin Upgradable snippets
+- added 2 more using {lib} for {type}

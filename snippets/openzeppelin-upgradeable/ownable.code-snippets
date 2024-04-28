@@ -1,0 +1,24 @@
+{
+    "Import Ownable Upgradeable contract": {
+        "scope": "solidity",
+        "prefix": "importOwnableUpgradeable",
+        "body": "import {OwnableUpgradeable} from \"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\";",
+        "description": "Import Ownable Upgradeable contract from @openzeppelin"
+    },
+    "Create Ownable Upgradeable Contract": {
+        "scope": "solidity",
+        "prefix": "ownableUpgradeable",
+        "body": [
+            "import {OwnableUpgradeable} from \"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\";",
+            "import {Initializable} from \"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\";",
+            "",
+            "contract $1 is Initializable, OwnableUpgradeable {",
+            "",
+            "   function intialize(address ${2:owner}) external initializer {",
+            "     __Ownable_init(${2:owner});",
+            "   }",
+            "}",
+        ],
+        "description": "Create an Ownable upgradeable contract using @openzeppelin dependencies",
+    }
+}
