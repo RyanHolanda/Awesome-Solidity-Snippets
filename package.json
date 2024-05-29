@@ -2,7 +2,7 @@
   "name": "awesome-solidity-snippets",
   "displayName": "Awesome Solidity Snippets",
   "description": "Snippets for Smart Contract Development with Solidity",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "icon": "logo.png",
   "publisher": "RyanHolanda",
   "galleryBanner": {
@@ -765,6 +765,56 @@
         "title": "OpenZeppelin Ownable Upgradeable snippets",
         "language": "solidity",
         "path": "./snippets/openzeppelin-upgradeable/ownable.code-snippets"
+      },
+      {
+        "title": "Solhint snippets",
+        "language": "solidity",
+        "path": "./snippets/solhint.code-snippets"
+      },
+      {
+        "title": "Slither Snippets",
+        "language": "solidity",
+        "path": "./snippets/slither.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Distributors snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/distributors.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Liquidity Mining snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/liquidity-mining.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Pool Linear snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/pool-linear.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Pool Stable snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/pool-stable.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Pool Utils snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/pool-utils.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Pool Weighted snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/pool-weighted.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Standalone Utils snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/standalone-utils.code-snippets"
+      },
+      {
+        "title": "Balancer V2 Vault snippets",
+        "language": "solidity",
+        "path": "./snippets/balancer/v2/vault.code-snippets"
       }
     ]
   }

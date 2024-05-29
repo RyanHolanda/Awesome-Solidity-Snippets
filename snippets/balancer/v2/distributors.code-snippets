@@ -1,0 +1,8 @@
+{
+    "Import Distribuitor Callback Interface": {
+        "scope": "solidity",
+        "prefix": "importDistributorCallbackI",
+        "body": "import {IDistributorCallback} from \"@balancer-labs/v2-interfaces/contracts/distributors/IDistributorCallback.sol\";",
+        "description": "Import Distributor Callback Interface from @balancer-labs/v2-interfaces"
+    },
+}

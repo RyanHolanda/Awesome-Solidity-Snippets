@@ -1,0 +1,140 @@
+{
+    "Import A Token Interface": {
+        "scope": "solidity",
+        "prefix": "importATokenI",
+        "body": "import {IAToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IAToken.sol\";",
+        "description": "Import A Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import BAL Token Holder Interface": {
+        "scope": "solidity",
+        "prefix": "importBALTokenHolderI",
+        "body": "import {IBALTokenHolder} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IBALTokenHolder.sol\";",
+        "description": "Import BAL Token Holder Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import BAL Token Holder Factory Interface": {
+        "scope": "solidity",
+        "prefix": "importBALTokenHolderFactoryI",
+        "body": "import {IBALTokenHolderFactory} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IBALTokenHolderFactory.sol\";",
+        "description": "Import BAL Token Holder Factory Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Balancer Queries Interface": {
+        "scope": "solidity",
+        "prefix": "importBalancerQueriesI",
+        "body": "import {IBalancerQueries} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IBalancerQueries.sol\";",
+        "description": "Import Balancer Queries Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Balancer Relayer Interface": {
+        "scope": "solidity",
+        "prefix": "importBalancerRelayerI",
+        "body": "import {IBalancerRelayer} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IBalancerRelayer.sol\";",
+        "description": "Import Balancer Relayer Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Button Wrapper Interface": {
+        "scope": "solidity",
+        "prefix": "importButtonWrapperI",
+        "body": "import {IButtonWrapper} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IButtonWrapper.sol\";",
+        "description": "Import Button Wrapper Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import C Token Interface": {
+        "scope": "solidity",
+        "prefix": "importCTokenI",
+        "body": "import {ICToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/ICToken.sol\";",
+        "description": "Import C Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Euler Token Interface": {
+        "scope": "solidity",
+        "prefix": "importEulerTokenI",
+        "body": "import {IEulerToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IEulerToken.sol\";",
+        "description": "Import Euler Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Gearbox Diesel Token Interface": {
+        "scope": "solidity",
+        "prefix": "importGearboxDieselTokenI",
+        "body": "import {IGearboxDieselToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IGearboxDieselToken.sol\";",
+        "description": "Import Gearbox Diesel Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol Fee Percentages Provider Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolFeePercentagesProviderI",
+        "body": "import {IProtocolFeePercentagesProvider} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IProtocolFeePercentagesProvider.sol\";",
+        "description": "Import Protocol Fee Percentages Provider Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol Fee Splitter Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolFeeSplitterI",
+        "body": "import {IProtocolFeeSplitter} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IProtocolFeeSplitter.sol\";",
+        "description": "Import Protocol Fee Splitter Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol Fees Withdrawer Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolFeesWithdrawerI",
+        "body": "import {IProtocolFeesWithdrawer} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IProtocolFeesWithdrawer.sol\";",
+        "description": "Import Protocol Fees Withdrawer Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol ID Registry Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolIdRegistryI",
+        "body": "import {IProtocolIdRegistry} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IProtocolIdRegistry.sol\";",
+        "description": "Import Protocol ID Registry Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Reaper Token Vault Interface": {
+        "scope": "solidity",
+        "prefix": "importReaperTokenVaultI",
+        "body": "import {IReaperTokenVault} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IReaperTokenVault.sol\";",
+        "description": "Import Reaper Token Vault Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Share Token Interface": {
+        "scope": "solidity",
+        "prefix": "importShareTokenI",
+        "body": "import {IShareToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IShareToken.sol\";",
+        "description": "Import Share Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Silo Interface": {
+        "scope": "solidity",
+        "prefix": "importSiloI",
+        "body": "import {ISilo} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/ISilo.sol\";",
+        "description": "Import Silo Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Static A Token LM Interface": {
+        "scope": "solidity",
+        "prefix": "importStaticATokenLMI",
+        "body": "import {IStaticATokenLM} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IStaticATokenLM.sol\";",
+        "description": "Import Static A Token LM Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Tetu Smart Vault Interface": {
+        "scope": "solidity",
+        "prefix": "importTetuSmartVaultI",
+        "body": "import {ITetuSmartVault} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/ITetuSmartVault.sol\";",
+        "description": "Import Tetu Smart Vault Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Tetu Strategy Interface": {
+        "scope": "solidity",
+        "prefix": "importTetuStrategyI",
+        "body": "import {ITetuStrategy} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/ITetuStrategy.sol\";",
+        "description": "Import Tetu Strategy Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Unbutton Token Interface": {
+        "scope": "solidity",
+        "prefix": "importUnbuttonTokenI",
+        "body": "import {IUnbuttonToken} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IUnbuttonToken.sol\";",
+        "description": "Import Unbutton Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Yearn Token Vault Interface": {
+        "scope": "solidity",
+        "prefix": "importYearnTokenVaultI",
+        "body": "import {IYearnTokenVault} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IYearnTokenVault.sol\";",
+        "description": "Import Yearn Token Vault Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import stETH Interface": {
+        "scope": "solidity",
+        "prefix": "importstETHI",
+        "body": "import {IstETH} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IstETH.sol\";",
+        "description": "Import stETH Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import wstETH Interface": {
+        "scope": "solidity",
+        "prefix": "importwstETHI",
+        "body": "import {IwstETH} from \"@balancer-labs/v2-interfaces/contracts/standalone-utils/IwstETH.sol\";",
+        "description": "Import wstETH Interface from @balancer-labs/v2-interfaces"
+    }
+}

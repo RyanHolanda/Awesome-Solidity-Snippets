@@ -1,0 +1,14 @@
+{
+    "Import Composable Stable Pool Rates Interface": {
+        "scope": "solidity",
+        "prefix": "importComposableStablePoolRatesI",
+        "body": "import {IComposableStablePoolRates} from \"@balancer-labs/v2-interfaces/contracts/pool-stable/IComposableStablePoolRates.sol\";",
+        "description": "Import Composable Stable Pool Rates Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Stable Pool User Data Library": {
+        "scope": "solidity",
+        "prefix": "importStablePoolUserData",
+        "body": "import {StablePoolUserData} from \"@balancer-labs/v2-interfaces/contracts/pool-stable/StablePoolUserData.sol\";",
+        "description": "Import Stable Pool User Data Library from @balancer-labs/v2-interfaces"
+    }
+}

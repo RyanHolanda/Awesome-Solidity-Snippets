@@ -1,0 +1,14 @@
+{
+    "Import External Weighted Math Interface": {
+        "scope": "solidity",
+        "prefix": "importExternalWeightedMathI",
+        "body": "import {IExternalWeightedMath} from \"@balancer-labs/v2-interfaces/contracts/pool-weighted/IExternalWeightedMath.sol\";",
+        "description": "Import External Weighted Math Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Weighted Pool User Data Library": {
+        "scope": "solidity",
+        "prefix": "importWeightedPoolUserData",
+        "body": "import {WeightedPoolUserData} from \"@balancer-labs/v2-interfaces/contracts/pool-weighted/WeightedPoolUserData.sol\";",
+        "description": "Import Weighted Pool User Data Library from @balancer-labs/v2-interfaces"
+    }
+}

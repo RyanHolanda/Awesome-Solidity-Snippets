@@ -1,0 +1,20 @@
+{
+    "Disable next line": {
+        "scope": "solidity",
+        "prefix": "slitherDisableNextLine",
+        "body": "//slither-disable-next-line ${1:detector}",
+        "description": "Disable slither detector for next line"
+    },
+    "Disable Start": {
+        "scope": "solidity",
+        "prefix": "slitherDisableStart",
+        "body": "//slither-disable-start ${1:detector}",
+        "description": "Disable slither detector starting from line"
+    },
+    "Disable End": {
+        "scope": "solidity",
+        "prefix": "slitherDisableEnd",
+        "body": "//slither-disable-end ${1:detector}",
+        "description": "Disable slither detector until line"
+    }
+}
