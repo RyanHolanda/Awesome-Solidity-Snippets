@@ -1,0 +1,14 @@
+{
+    "Import IERC4626 Interface": {
+        "scope": "solidity",
+        "prefix": "importERC4626I",
+        "body": "import {IERC4626} from \"@balancer-labs/v2-interfaces/contracts/pool-linear/IERC4626.sol\";",
+        "description": "Import IERC4626 Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Linear Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importLinearPoolI",
+        "body": "import {ILinearPool} from \"@balancer-labs/v2-interfaces/contracts/pool-linear/ILinearPool.sol\";",
+        "description": "Import Linear Pool Interface from @balancer-labs/v2-interfaces"
+    }
+}

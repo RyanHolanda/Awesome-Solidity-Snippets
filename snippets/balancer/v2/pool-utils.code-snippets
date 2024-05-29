@@ -1,0 +1,86 @@
+{
+    "Import Base Pool User Data Library": {
+        "scope": "solidity",
+        "prefix": "importBasePoolUserData",
+        "body": "import {BasePoolUserData} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/BasePoolUserData.sol\";",
+        "description": "Import Base Pool User Data Library from @balancer-labs/v2-interfaces"
+    },
+    "Import Base Pool Controller Interface": {
+        "scope": "solidity",
+        "prefix": "importBasePoolControllerI",
+        "body": "import {IBasePoolController} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IBasePoolController.sol\";",
+        "description": "Import Base Pool Controller Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Base Pool Factory Interface": {
+        "scope": "solidity",
+        "prefix": "importBasePoolFactoryI",
+        "body": "import {IBasePoolFactory} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IBasePoolFactory.sol\";",
+        "description": "Import Base Pool Factory Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Controlled Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importControlledPoolI",
+        "body": "import {IControlledPool} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IControlledPool.sol\";",
+        "description": "Import Controlled Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Factory Created Pool Version Interface": {
+        "scope": "solidity",
+        "prefix": "importFactoryCreatedPoolVersionI",
+        "body": "import {IFactoryCreatedPoolVersion} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IFactoryCreatedPoolVersion.sol\";",
+        "description": "Import Factory Created Pool Version Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Last Created Pool Factory Interface": {
+        "scope": "solidity",
+        "prefix": "importLastCreatedPoolFactoryI",
+        "body": "import {ILastCreatedPoolFactory} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/ILastCreatedPoolFactory.sol\";",
+        "description": "Import Last Created Pool Factory Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Managed Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importManagedPoolI",
+        "body": "import {IManagedPool} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IManagedPool.sol\";",
+        "description": "Import Managed Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Pool Version Interface": {
+        "scope": "solidity",
+        "prefix": "importPoolVersionI",
+        "body": "import {IPoolVersion} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IPoolVersion.sol\";",
+        "description": "Import Pool Version Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol Fee Cache Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolFeeCacheI",
+        "body": "import {IProtocolFeeCache} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IProtocolFeeCache.sol\";",
+        "description": "Import Protocol Fee Cache Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Rate Provider Interface": {
+        "scope": "solidity",
+        "prefix": "importRateProviderI",
+        "body": "import {IRateProvider} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProvider.sol\";",
+        "description": "Import Rate Provider Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Rate Provider Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importRateProviderPoolI",
+        "body": "import {IRateProviderPool} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IRateProviderPool.sol\";",
+        "description": "Import Rate Provider Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Recovery Mode Interface": {
+        "scope": "solidity",
+        "prefix": "importRecoveryModeI",
+        "body": "import {IRecoveryMode} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryMode.sol\";",
+        "description": "Import Recovery Mode Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Recovery Mode Helper Interface": {
+        "scope": "solidity",
+        "prefix": "importRecoveryModeHelperI",
+        "body": "import {IRecoveryModeHelper} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IRecoveryModeHelper.sol\";",
+        "description": "Import Recovery Mode Helper Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Version Interface": {
+        "scope": "solidity",
+        "prefix": "importVersionI",
+        "body": "import {IVersion} from \"@balancer-labs/v2-interfaces/contracts/pool-utils/IVersion.sol\";",
+        "description": "Import Version Interface from @balancer-labs/v2-interfaces"
+    }
+}

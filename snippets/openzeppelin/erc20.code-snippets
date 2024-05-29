@@ -1,7 +1,7 @@
 {
     "Import SafeERC20 Library": {
         "scope": "solidity",
-        "prefix": "importSafeErc20",
+        "prefix": "importSafeERC20",
         "body": "import {SafeERC20} from \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";",
         "description": "Import SafeERC20 library from @openzeppelin"
     },
@@ -64,6 +64,12 @@
         "prefix": "importERC20PermitI",
         "body": "import {IERC20Permit} from \"@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol\";",
         "description": "Import ERC20 Permit Interface from @openzeppelin"
+    },
+    "Import ERC20 Mock": {
+        "scope": "solidity",
+        "prefix": "importERC20Mock",
+        "body": "import {ERC20Mock} from \"@openzeppelin/contracts/mocks/token/ERC20Mock.sol\";",
+        "description": "Import ERC20 Mock contract from @openzeppelin"
     },
     "Create ERC20 Contract": {
         "scope": "solidity",
@@ -150,6 +156,18 @@
             "}",
         ],
         "description": "Create a ERC20 Flash Mint contract using @openzeppelin dependencies",
+    },
+    "Create ERC20Mock Contract": {
+        "scope": "solidity",
+        "prefix": "erc20Mock",
+        "body": [
+            "import {ERC20Mock} from \"@openzeppelin/contracts/mocks/token/ERC20Mock.sol\";",
+            "",
+            "contract $1 is ERC20Mock {",
+            "",
+            "}",
+        ],
+        "description": "Create a ERC20 Mock contract using @openzeppelin dependencies",
     },
     "Use Safe ERC20 for IERC20": {
         "scope": "solidity",

@@ -1,0 +1,62 @@
+{
+    "Import Asset Interface": {
+        "scope": "solidity",
+        "prefix": "importAssetI",
+        "body": "import {IAsset} from \"@balancer-labs/v2-interfaces/contracts/vault/IAsset.sol\";",
+        "description": "Import Asset Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Authorizer Interface": {
+        "scope": "solidity",
+        "prefix": "importAuthorizerI",
+        "body": "import {IAuthorizer} from \"@balancer-labs/v2-interfaces/contracts/vault/IAuthorizer.sol\";",
+        "description": "Import Authorizer Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Base Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importBasePoolI",
+        "body": "import {IBasePool} from \"@balancer-labs/v2-interfaces/contracts/vault/IBasePool.sol\";",
+        "description": "Import Base Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Basic Authorizer Interface": {
+        "scope": "solidity",
+        "prefix": "importBasicAuthorizerI",
+        "body": "import {IBasicAuthorizer} from \"@balancer-labs/v2-interfaces/contracts/vault/IBasicAuthorizer.sol\";",
+        "description": "Import Basic Authorizer Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Flash Loan Recipient Interface": {
+        "scope": "solidity",
+        "prefix": "importFlashLoanRecipientI",
+        "body": "import {IFlashLoanRecipient} from \"@balancer-labs/v2-interfaces/contracts/vault/IFlashLoanRecipient.sol\";",
+        "description": "Import Flash Loan Recipient Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import General Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importGeneralPoolI",
+        "body": "import {IGeneralPool} from \"@balancer-labs/v2-interfaces/contracts/vault/IGeneralPool.sol\";",
+        "description": "Import General Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Minimal Swap Info Pool Interface": {
+        "scope": "solidity",
+        "prefix": "importMinimalSwapInfoPoolI",
+        "body": "import {IMinimalSwapInfoPool} from \"@balancer-labs/v2-interfaces/contracts/vault/IMinimalSwapInfoPool.sol\";",
+        "description": "Import Minimal Swap Info Pool Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Pool Swap Structs Interface": {
+        "scope": "solidity",
+        "prefix": "importPoolSwapStructsI",
+        "body": "import {IPoolSwapStructs} from \"@balancer-labs/v2-interfaces/contracts/vault/IPoolSwapStructs.sol\";",
+        "description": "Import Pool Swap Structs Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Protocol Fees Collector Interface": {
+        "scope": "solidity",
+        "prefix": "importProtocolFeesCollectorI",
+        "body": "import {IProtocolFeesCollector} from \"@balancer-labs/v2-interfaces/contracts/vault/IProtocolFeesCollector.sol\";",
+        "description": "Import Protocol Fees Collector Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Vault Interface": {
+        "scope": "solidity",
+        "prefix": "importVaultI",
+        "body": "import {IVault} from \"@balancer-labs/v2-interfaces/contracts/vault/IVault.sol\";",
+        "description": "Import Vault Interface from @balancer-labs/v2-interfaces"
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "Import Arbitrum Fee Provider Interface": {
+        "scope": "solidity",
+        "prefix": "importArbitrumFeeProviderI",
+        "body": "import {IArbitrumFeeProvider} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IArbitrumFeeProvider.sol\";",
+        "description": "Import Arbitrum Fee Provider Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Authorizer Adaptor Interface": {
+        "scope": "solidity",
+        "prefix": "importAuthorizerAdaptorI",
+        "body": "import {IAuthorizerAdaptor} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IAuthorizerAdaptor.sol\";",
+        "description": "Import Authorizer Adaptor Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Authorizer Adaptor Entrypoint Interface": {
+        "scope": "solidity",
+        "prefix": "importAuthorizerAdaptorEntrypointI",
+        "body": "import {IAuthorizerAdaptorEntrypoint} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IAuthorizerAdaptorEntrypoint.sol\";",
+        "description": "Import Authorizer Adaptor Entrypoint Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Balancer Minter Interface": {
+        "scope": "solidity",
+        "prefix": "importBalancerMinterI",
+        "body": "import {IBalancerMinter} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IBalancerMinter.sol\";",
+        "description": "Import Balancer Minter Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Balancer Token Interface": {
+        "scope": "solidity",
+        "prefix": "importBalancerTokenI",
+        "body": "import {IBalancerToken} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IBalancerToken.sol\";",
+        "description": "Import Balancer Token Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Balancer Token Admin Interface": {
+        "scope": "solidity",
+        "prefix": "importBalancerTokenAdminI",
+        "body": "import {IBalancerTokenAdmin} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IBalancerTokenAdmin.sol\";",
+        "description": "Import Balancer Token Admin Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Child Chain Gauge Interface": {
+        "scope": "solidity",
+        "prefix": "importChildChainGaugeI",
+        "body": "import {IChildChainGauge} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IChildChainGauge.sol\";",
+        "description": "Import Child Chain Gauge Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Child Chain Liquidity Gauge Factory Interface": {
+        "scope": "solidity",
+        "prefix": "importChildChainLiquidityGaugeFactoryI",
+        "body": "import {IChildChainLiquidityGaugeFactory} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IChildChainLiquidityGaugeFactory.sol\";",
+        "description": "Import Child Chain Liquidity Gauge Factory Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Child Chain Streamer Interface": {
+        "scope": "solidity",
+        "prefix": "importChildChainStreamerI",
+        "body": "import {IChildChainStreamer} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IChildChainStreamer.sol\";",
+        "description": "Import Child Chain Streamer Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Fee Distributor Interface": {
+        "scope": "solidity",
+        "prefix": "importFeeDistributorI",
+        "body": "import {IFeeDistributor} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IFeeDistributor.sol\";",
+        "description": "Import Fee Distributor Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Gauge Adder Interface": {
+        "scope": "solidity",
+        "prefix": "importGaugeAdderI",
+        "body": "import {IGaugeAdder} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IGaugeAdder.sol\";",
+        "description": "Import Gauge Adder Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Gauge Controller Interface": {
+        "scope": "solidity",
+        "prefix": "importGaugeControllerI",
+        "body": "import {IGaugeController} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IGaugeController.sol\";",
+        "description": "Import Gauge Controller Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import LM Getters Interface": {
+        "scope": "solidity",
+        "prefix": "importLMGettersI",
+        "body": "import {ILMGetters} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/ILMGetters.sol\";",
+        "description": "Import LM Getters Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Liquidity Gauge Interface": {
+        "scope": "solidity",
+        "prefix": "importLiquidityGaugeI",
+        "body": "import {ILiquidityGauge} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/ILiquidityGauge.sol\";",
+        "description": "Import Liquidity Gauge Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Liquidity Gauge Factory Interface": {
+        "scope": "solidity",
+        "prefix": "importLiquidityGaugeFactoryI",
+        "body": "import {ILiquidityGaugeFactory} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/ILiquidityGaugeFactory.sol\";",
+        "description": "Import Liquidity Gauge Factory Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Mainnet Balancer Minter Interface": {
+        "scope": "solidity",
+        "prefix": "importMainnetBalancerMinterI",
+        "body": "import {IMainnetBalancerMinter} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IMainnetBalancerMinter.sol\";",
+        "description": "Import Mainnet Balancer Minter Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Optimism Gas Limit Provider Interface": {
+        "scope": "solidity",
+        "prefix": "importOptimismGasLimitProviderI",
+        "body": "import {IOptimismGasLimitProvider} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IOptimismGasLimitProvider.sol\";",
+        "description": "Import Optimism Gas Limit Provider Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Reward Token Distributor Interface": {
+        "scope": "solidity",
+        "prefix": "importRewardTokenDistributorI",
+        "body": "import {IRewardTokenDistributor} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IRewardTokenDistributor.sol\";",
+        "description": "Import Reward Token Distributor Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Rewards Only Gauge Interface": {
+        "scope": "solidity",
+        "prefix": "importRewardsOnlyGaugeI",
+        "body": "import {IRewardsOnlyGauge} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IRewardsOnlyGauge.sol\";",
+        "description": "Import Rewards Only Gauge Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Smart Wallet Checker Interface": {
+        "scope": "solidity",
+        "prefix": "importSmartWalletCheckerI",
+        "body": "import {ISmartWalletChecker} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/ISmartWalletChecker.sol\";",
+        "description": "Import Smart Wallet Checker Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Stakeless Gauge Interface": {
+        "scope": "solidity",
+        "prefix": "importStakelessGaugeI",
+        "body": "import {IStakelessGauge} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IStakelessGauge.sol\";",
+        "description": "Import Stakeless Gauge Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Staking Liquidity Gauge Interface": {
+        "scope": "solidity",
+        "prefix": "importStakingLiquidityGaugeI",
+        "body": "import {IStakingLiquidityGauge} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IStakingLiquidityGauge.sol\";",
+        "description": "Import Staking Liquidity Gauge Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import ve Delegation Interface": {
+        "scope": "solidity",
+        "prefix": "importVeDelegationI",
+        "body": "import {IVeDelegation} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IVeDelegation.sol\";",
+        "description": "Import ve Delegation Interface from @balancer-labs/v2-interfaces"
+    },
+    "Import Voting Escrow Interface": {
+        "scope": "solidity",
+        "prefix": "importVotingEscrowI",
+        "body": "import {IVotingEscrow} from \"@balancer-labs/v2-interfaces/contracts/liquidity-mining/IVotingEscrow.sol\";",
+        "description": "Import Voting Escrow Interface from @balancer-labs/v2-interfaces"
+    },
+}

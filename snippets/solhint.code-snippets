@@ -1,0 +1,26 @@
+{
+    "Disable Next Line": {
+        "scope": "solidity",
+        "prefix": "solhintDisableNextLine",
+        "body": "// solhint-disable-next-line ${1:rules}",
+        "description": "Disable solhint linter for next line"
+    },
+    "Disable Line": {
+        "scope": "solidity",
+        "prefix": "solhintDisableLine",
+        "body": "// solhint-disable-line ${1:rules}",
+        "description": "Inline disable solhint linter"
+    },
+    "Disable": {
+        "scope": "solidity",
+        "prefix": "solhintDisable",
+        "body": "// solhint-disable ${1:rules}",
+        "description": "Disable solhint linter in the file"
+    },
+    "Enable": {
+        "scope": "solidity",
+        "prefix": "solhintEnable",
+        "body": "// solhint-enable ${1:rules}",
+        "description": "Enable solhint linter in the file"
+    }
+}

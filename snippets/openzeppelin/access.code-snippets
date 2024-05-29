@@ -23,6 +23,12 @@
         "body": "import {AccessControl} from \"@openzeppelin/contracts/access/AccessControl.sol\";",
         "description": "Import Access Control contract from @openzeppelin"
     },
+    "Import Access Control Default Admin Rules Contract": {
+        "scope": "solidity",
+        "prefix": "importAccessControlDefaultAdminRules",
+        "body": "import {AccessControlDefaultAdminRules} from \"@openzeppelin/contracts/access/extensions/AccessControlDefaultAdminRules.sol\";",
+        "description": "Import Access Control Default Admin Rules contract from @openzeppelin"
+    },
     "Import Access Control Enumerable Interface": {
         "scope": "solidity",
         "prefix": "importAccessControlEnumerableI",
@@ -115,7 +121,20 @@
         ],
         "description": "Create an Access Control contract using @openzeppelin dependencies",
     },
-    "Create Acess Control Enumerable Contract": {
+    "Create Access Control Default Admin Rules Contract": {
+        "scope": "solidity",
+        "prefix": "accessControlDefaultAdminRules",
+        "body": [
+            "import {AccessControlDefaultAdminRules} from \"@openzeppelin/contracts/access/extensions/AccessControlDefaultAdminRules.sol\";",
+            "",
+            "contract $1 is AccessControlDefaultAdminRules {",
+            "   constructor() AccessControlDefaultAdminRules(${2:ownershipTransferDelay},${3:admin}) {",
+            "",
+            "   }",
+            "}",
+        ]
+    },
+    "Create Access Control Enumerable Contract": {
         "scope": "solidity",
         "prefix": "accessControlEnumerable",
         "body": [
