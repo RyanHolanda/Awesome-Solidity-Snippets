@@ -838,15 +838,23 @@ At this time, there are no known issues. If you discover a bug or would like a n
 
 ## Release Notes
 
-### 1.0.0
+### 1.2.0
 
-- Initial release of Awesome Solidity
-
-### 1.0.1
-
-- Added Profile Picture and Adjusted Package.json
+- Added Balancer Interfaces Snippets
+- Added Slither Snippets
+- Added Solhint Snippets
+- Added OpenZeppelin Access snippets
+- Added OpenZeppelin ERC20 snippets
 
 ### 1.1.0
 
 - Added OpenZeppelin Upgradable snippets
 - added 2 more using {lib} for {type}
+
+### 1.0.1
+
+- Added Profile Picture and Adjusted Package.json
+
+### 1.0.0
+
+- Initial release of Awesome Solidity
